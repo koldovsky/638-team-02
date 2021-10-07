@@ -36,3 +36,43 @@
     font-size: 16px;
     color: #717474;
 }
+
+.white-subtitle-of-the-paragraph {
+    color:#ffffff;
+    font-family: "Pt Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+.white-text-of-the-paragraph {
+    color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+.about-us {
+    background-color: #303030;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.block-why-choose {
+   text-align: center;
+}
+.line {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: 0 0 0 0;
+}
+.small-silver-line {
+    height: 2px;
+    width: 8%; 
+    background-color: #e0e0e0;
+}
+.block-about-us {
+    margin-top: -50px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
