@@ -8,10 +8,15 @@
     font-size: 124px;
     color: #222323
 }
-.low-header {
+.low-header-black {
     font-family: PT Sans,sans-serif;
     font-size: 52px;
     color: #222323;
+}
+.low-header-white{
+    font-family: PT Sans,sans-serif;
+    font-size: 52px;
+    color: #ffffff;   
 }
 .red-dot {
     color: red;
@@ -19,7 +24,7 @@
 .section-discriber {
     font-family: PT Sans,sans-serif;
     font-size: 20px;
-    color: #222323;
+    color: rgb(113, 116, 116);
 }
 .name-of-good {
     font-family: PT Sans,sans-serif;
