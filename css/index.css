@@ -1,0 +1,39 @@
+.slogan {
+    font-family: Bebas Neue,cursive;
+    font-size: 24px;
+    color: #222323;
+}
+.section-main-text {
+    font-family: Bebas Neue,cursive;
+    font-size: 124px;
+    color: #222323
+}
+.section-main-img {
+position: absolute;
+}
+.low-header {
+    font-family: Bebas Neue,cursive;
+    font-size: 52px;
+    color: #222323;
+}
+.red-dot {
+    color: red;
+}
+.section-discriber {
+    font-family: PT Sans,sans-serif;
+    font-size: 20px;
+    color: #222323;
+}
+.good-img-index-page {
+    position: absolute;
+}
+.name-of-good {
+    font-family: PT Sans,sans-serif;
+    font-size: 16px;
+    color: #f40106;
+}
+.price-of-good {
+    font-family: PT Sans,sans-serif;
+    font-size: 16px;
+    color: #717474;
+}
