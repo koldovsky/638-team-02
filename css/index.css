@@ -76,3 +76,17 @@
     margin-left: -15px;
     margin-right: -15px;
 }
+.main_collection {
+    text-align: center;
+    font-family: Bebas Neue,cursive;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+.mc_product_name {
+    text-align: left;
+    text-decoration: none;
+    font-family:PT Sans,sans-seri;
+    color: #fd0213;
+    margin-top: 8px;
+
+}
