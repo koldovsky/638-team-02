@@ -67,6 +67,11 @@
     position: 0 0 0 0;
 }
 .small-silver-line {
+    position: relative;
+    min-width: 320px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    word-wrap: break-word;
     height: 2px;
     width: 8%; 
     background-color: #e0e0e0;
