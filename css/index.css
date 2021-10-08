@@ -82,11 +82,19 @@
     font-size: 23px;
     letter-spacing: 2px;
 }
-.mc_product_name {
+div.w_collection a {
     text-align: left;
     text-decoration: none;
     font-family:PT Sans,sans-seri;
-    color: #fd0213;
+    color: rgb(255, 0, 0);
+    margin-top: 8px;
+
+}
+div.man_collection a {
+    text-align: left;
+    text-decoration: none;
+    font-family:PT Sans,sans-seri;
+    color: rgb(255, 0, 0);
     margin-top: 8px;
 
 }
