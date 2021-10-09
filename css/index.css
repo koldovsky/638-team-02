@@ -127,13 +127,16 @@ img {
     margin-left: -15px;
     margin-right: -15px;
 }
-.main_collection {
+#main-collection {
+    text-align: center;
+}
+.main-collection {
     text-align: center;
     font-family: Bebas Neue,cursive;
     font-size: 23px;
     letter-spacing: 2px;
 }
-div.w_collection a {
+div.w-collection a {
     text-align: left;
     text-decoration: none;
     font-family:PT Sans,sans-seri;
@@ -141,13 +144,64 @@ div.w_collection a {
     margin-top: 8px;
 
 }
-div.man_collection a {
+
+div.man-collection a {
     text-align: left;
     text-decoration: none;
     font-family:PT Sans,sans-seri;
     color: rgb(255, 0, 0);
     margin-top: 8px;
-
+}
+div.shoes-collection a {
+    text-align: left;
+    text-decoration: none;
+    font-family:PT Sans,sans-seri;
+    color: rgb(255, 0, 0);
+    margin-top: 8px;
+}
+.mc-underline {
+    height: 2px;
+    width: 8%;
+    background-color: #e0e0e0;
+} 
+@media(min-width: 500px) {
+    .w-collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap:5px;
+        grid-column-gap:5px;
+    }
+}
+@media(min-width:700px){
+    .w-collection{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width: 500px) {
+    .man-collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap:5px;
+        grid-column-gap:5px;
+        }
+    }
+@media(min-width:700px){
+    .man-collection{
+    grid-template-columns: 1fr 1fr 1fr;
+    }        
+}
+@media(min-width: 500px) {
+    .shoes-collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap:5px;
+        grid-column-gap:5px;
+        }
+    }
+@media(min-width:700px){
+    .shoes-collection{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 .logo {
     font-family: PT Sans,sans-serif;
