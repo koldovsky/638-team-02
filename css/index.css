@@ -1,16 +1,36 @@
-.slogan {
-    font-family: PT Sans,sans-serif;
-    font-size: 24px;
+.section-header {
+    display:block;
+    background-image: url(../img/yoga-girl.jpg);
+    background-size: cover;
+    min-height: 400px;
+}
+.section-text {
+    display:block;
+    padding: 50px;
+}
+.section-slogan {
+    margin: 0;
+    font-family: Bebas Neue, cursive;
+    font-size: 22px;
+    text-align: left;
     color: rgba(34,35,35,0.46);
 }
 .section-main-text {
-    font-family: PT Sans,sans-serif;
-    font-size: 124px;
-    color: #222323
+    display: block;
+    text-align: left;
+    font-family: Bebas Neue, cursive;
+    font-size: 62px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: #222323;
 }
 .low-header-black {
-    font-family: PT Sans,sans-serif;
+    text-align: center;
+    font-family: Bebas Neue, cursive;
     font-size: 52px;
+    font-weight: 400;
     color: #222323;
 }
 .low-header-white{
@@ -22,18 +42,27 @@
     color: red;
 }
 .section-discriber {
+    text-align: center;
     font-family: PT Sans,sans-serif;
     font-size: 20px;
+    font-weight: 400;
     color: rgb(113, 116, 116);
 }
 .name-of-good {
+    display: inline-block;
+    text-align: left;
+    margin-top: 8px;
     font-family: PT Sans,sans-serif;
     font-size: 16px;
+    font-weight: 600;
     color: #f40106;
 }
 .price-of-good {
+    display: block;
+    text-align: left;
     font-family: PT Sans,sans-serif;
     font-size: 16px;
+    font-weight: 600;
     color: #717474;
 }
 
