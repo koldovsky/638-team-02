@@ -1,3 +1,7 @@
+img {
+    width: 100%;
+    display: block;
+}
 .section-header {
     display:block;
     background-image: url(../img/yoga-girl.jpg);
@@ -152,6 +156,10 @@ div.man_collection a {
     padding-right: 30px;
 }
 .section-main-img {
+    width: 100%;
+    height: auto;
+}
+.good-img-index-page {
     width: 100%;
     height: auto;
 }
