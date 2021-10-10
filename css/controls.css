@@ -1,0 +1,16 @@
+.shop-now-button {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin:  5px;
+    text-decoration: none;
+    font-family: PT Sans, sans-serif;
+}
+.season-sale-cards .add-to-cart-button {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin: 15px 5px 5px 0px;
+    text-decoration: none;
+    font-family: PT Sans, sans-serif;
+}

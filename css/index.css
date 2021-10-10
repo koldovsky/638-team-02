@@ -69,7 +69,32 @@ img {
     font-weight: 600;
     color: #717474;
 }
+.season-sale-cards > .sale-card {
+    display:block;
+    margin-bottom: 45px;
+    margin-right: 15px;
 
+}
+@media (min-width: 480px) {
+    .season-sale-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+    }
+}
+@media (min-width: 760px) {
+    .season-sale-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 980px) {
+    .season-sale-cards {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
 .white-subtitle-of-the-paragraph {
     color:#ffffff;
     font-family: "Pt Sans", sans-serif;
