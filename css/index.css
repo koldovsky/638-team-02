@@ -149,12 +149,24 @@ div.man_collection a {
     margin-top: 8px;
 
 }
-.logo {
-    font-family: PT Sans,sans-serif;
+.block-div-month {
+    background-color: #222323;
+}
+div .logo {
+    background-color: #222323;
     font-size: 62px;
+    font-family: Bebas Neue,cursive;
+    text-align: left;
+    text-transform: none;
     padding-left: 30px;
     padding-right: 30px;
 }
+.text-body {
+    color: #fff;
+    font-size: 16px;
+    font-family: PT Sans,sans-serif;
+}
+
 .section-main-img {
     width: 100%;
     height: auto;
