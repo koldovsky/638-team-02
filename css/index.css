@@ -72,20 +72,25 @@
     height: 1.5px;
     background-color: #e0e0e0;
 }
-.style-cards-border{
+.style-card{
     border:2px solid #e0e0e0;
     padding-bottom: 30px;
     padding-top: 30px;
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;
+    justify-content: flex-start;
 }
-.title-2-for-cards{
+.style-cards-border .card-include .img{
+    width:50px;
+    height: 50px;
+}
+.card-include h2{
     font-family: "Bebas Neue", cursive;
     font-size: 22px;
     color: #222323;
 }
-.subscription-card{
+.card-include p{
     color: #717474;
     font-size: 16px;
     font-family: PT Sans, sans-serif;
