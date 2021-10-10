@@ -1,17 +1,40 @@
-
-.slogan {
-    font-family: PT Sans,sans-serif;
-    font-size: 24px;
+img {
+    width: 100%;
+    display: block;
+}
+.section-header {
+    display:block;
+    background-image: url(../img/yoga-girl.jpg);
+    background-size: cover;
+    min-height: 800px;
+}
+.section-text {
+    display:block;
+    padding: 300px 0px 0px 50px;
+}
+.section-slogan {
+    margin: 0;
+    font-family: Bebas Neue, cursive;
+    font-size: 22px;
+    text-align: left;
     color: rgba(34,35,35,0.46);
 }
 .section-main-text {
-    font-family: PT Sans,sans-serif;
-    font-size: 124px;
-    color: #222323
+    display: block;
+    text-align: left;
+    font-family: Bebas Neue, cursive;
+    font-size: 62px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: #222323;
 }
 .low-header-black {
-    font-family: PT Sans,sans-serif;
+    text-align: center;
+    font-family: Bebas Neue, cursive;
     font-size: 52px;
+    font-weight: 400;
     color: #222323;
 }
 .low-header-white{
@@ -23,21 +46,65 @@
     color: red;
 }
 .section-discriber {
+    text-align: center;
     font-family: PT Sans,sans-serif;
     font-size: 20px;
+    font-weight: 400;
     color: rgb(113, 116, 116);
 }
 .name-of-good {
+    display: inline-block;
+    text-align: left;
+    margin-top: 8px;
     font-family: PT Sans,sans-serif;
     font-size: 16px;
+    font-weight: 600;
     color: #f40106;
 }
 .price-of-good {
+    display: block;
+    text-align: left;
     font-family: PT Sans,sans-serif;
     font-size: 16px;
+    font-weight: 600;
     color: #717474;
 }
+.season-sale-cards .sale-card {
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin-bottom: 45px;
+    margin-right: 15px;
 
+}
+@media (min-width: 320px) {
+    .season-sale-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 480px) {
+    .season-sale-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+    }
+}
+@media (min-width: 760px) {
+    .season-sale-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 980px) {
+    .season-sale-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
 .white-subtitle-of-the-paragraph {
     color:#ffffff;
     font-family: "Pt Sans", sans-serif;
@@ -100,13 +167,16 @@
     margin-left: -15px;
     margin-right: -15px;
 }
-.main_collection {
+#main-collection {
+    text-align: center;
+}
+.main-collection {
     text-align: center;
     font-family: Bebas Neue,cursive;
     font-size: 23px;
     letter-spacing: 2px;
 }
-div.w_collection a {
+div.w-collection a {
     text-align: left;
     text-decoration: none;
     font-family:PT Sans,sans-seri;
@@ -114,13 +184,64 @@ div.w_collection a {
     margin-top: 8px;
 
 }
-div.man_collection a {
+
+div.man-collection a {
     text-align: left;
     text-decoration: none;
     font-family:PT Sans,sans-seri;
     color: rgb(255, 0, 0);
     margin-top: 8px;
-
+}
+div.shoes-collection a {
+    text-align: left;
+    text-decoration: none;
+    font-family:PT Sans,sans-seri;
+    color: rgb(255, 0, 0);
+    margin-top: 8px;
+}
+.mc-underline {
+    height: 2px;
+    width: 8%;
+    background-color: #e0e0e0;
+} 
+@media(min-width: 500px) {
+    .w-collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap:5px;
+        grid-column-gap:5px;
+    }
+}
+@media(min-width:700px){
+    .w-collection{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width: 500px) {
+    .man-collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap:5px;
+        grid-column-gap:5px;
+        }
+    }
+@media(min-width:700px){
+    .man-collection{
+    grid-template-columns: 1fr 1fr 1fr;
+    }        
+}
+@media(min-width: 500px) {
+    .shoes-collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap:5px;
+        grid-column-gap:5px;
+        }
+    }
+@media(min-width:700px){
+    .shoes-collection{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 .logo {
     font-family: PT Sans,sans-serif;
@@ -129,6 +250,10 @@ div.man_collection a {
     padding-right: 30px;
 }
 .section-main-img {
+    width: 100%;
+    height: auto;
+}
+.good-img-index-page {
     width: 100%;
     height: auto;
 }
