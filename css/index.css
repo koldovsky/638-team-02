@@ -163,6 +163,10 @@ img.cards-img-top {
     font-family: "PT Sans", sans-serif;
     text-align: center;
 }
+img.top-image-about{
+    object-position: 55.202% 13.885%;
+    object-fit: cover;
+}
 .about-us {
     background-color: #222323;
     padding: 90px 30px;
