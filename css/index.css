@@ -69,8 +69,8 @@
 .season-sale-cards .sale-card {
     display:flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: left;
     margin-bottom: 45px;
     margin-right: 15px;
 
@@ -99,7 +99,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items:flex-start;
+        align-items: center;
     }
 }
 
