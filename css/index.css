@@ -1,7 +1,7 @@
 .section-header {
     display:block;
     background-image: url(../img/yoga-girl.jpg);
-    background-size: cover;
+    background-size:cover;
     min-height: 800px;
 }
 .section-text {
