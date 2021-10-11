@@ -99,7 +99,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
+        align-items:flex-start;
     }
 }
 
@@ -163,7 +163,7 @@ img.cards-img-top {
     margin-left: -15px;
     margin-right: -15px;*/
 }
-#main-collection {
+.main-collection {
     text-align: center;
 }
 .main-collection {
@@ -239,12 +239,88 @@ div.shoes-collection a {
     grid-template-columns: 1fr 1fr 1fr;
     }
 }
-.logo {
-    font-family: PT Sans,sans-serif;
+.block-div-month {
+    background-color: #222323;
+    text-align: left;
+    flex-direction: column;
+}
+div .low-header-white {
+    background-color: #222323;
     font-size: 62px;
+    font-family: Bebas Neue,cursive;
+    text-align: left;
+    text-transform: none;
+    display: flex;
     padding-left: 30px;
     padding-right: 30px;
 }
+.text-body-bra {
+    color: #fff;
+    font-size: 16px;
+    font-family: PT Sans,sans-serif;
+    font-weight: bold;
+}
+.text-body-red-sale {
+    font-weight: bold;
+    color: #f40106;
+    font-size: 42px;
+    font-family: PT Sans,sans-serif;
+    text-transform: none;
+}
+.strike {
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: line-through;
+
+}
+.text-content-start {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: none;
+}
+.span-more-details {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.3333em;
+    letter-spacing: 0;
+    font-family: PT Sans,sans-serif;
+    font-style: normal;
+    text-transform: none;
+    display: inline-block;
+    text-align: center;
+    background-position: 50%;
+    cursor: pointer;
+    text-align: left;
+}
+div .number {
+    color: #fff;
+    font-size: 36px;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;   
+}
+.caption {
+    color: #fff;
+    font-size: 18px;
+    font-family: PT Sans,sans-serif;
+    opacity: .54;
+
+}
+.title-new-arrivals {
+    font-size: 38px!important;
+    line-height: 1.14!important;
+    letter-spacing: 0;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+}
+
+
 .section-main-img {
     width: 100%;
     height: auto;
