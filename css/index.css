@@ -1,7 +1,8 @@
+
 .section-header {
     display:block;
     background-image: url(../img/yoga-girl.jpg);
-    background-size: cover;
+    background-size:cover;
     min-height: 800px;
 }
 .section-text {
@@ -179,7 +180,7 @@ img.cards-img-top {
     letter-spacing: 2px;
 }
 div.w-collection a {
-    text-align: left;
+    text-align: left; 
     text-decoration: none;
     font-family:"PT Sans",sans-seri;
     color: rgb(255, 0, 0);
@@ -207,38 +208,51 @@ div.shoes-collection a {
 } 
 @media(min-width: 500px) {
     .w-collection{
+        text-align: left;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap:5px;
-        grid-column-gap:5px;
+        grid-column-gap:10px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
 }
 @media(min-width:700px){
     .w-collection{
         grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 250px;
+        margin-right: 250px;
     }
 }
 @media(min-width: 500px) {
     .man-collection{
+        text-align: left;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap:5px;
-        grid-column-gap:5px;
-        }
+        grid-column-gap:10px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
+}
 @media(min-width:700px){
     .man-collection{
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
+    
     }        
 }
 @media(min-width: 500px) {
     .shoes-collection{
+        text-align: left;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap:5px;
-        grid-column-gap:5px;
-        }
+        grid-column-gap:10px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
+}
 @media(min-width:700px){
     .shoes-collection{
     grid-template-columns: 1fr 1fr 1fr;
@@ -336,5 +350,37 @@ div .number {
 }
 .good-img-index-page {
     width: 100%;
+    height: auto;
+}
+.footer {
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.65);
+}
+footer .footer-slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:left;
+}
+footer .footer-slogan .footer-logo {
+    height: 200px;
+    width: 200px;
+}
+footer .footer-slogan .footer-slogan-text {
+    display: block;
+    margin: 0px 200px 200px 0px;
+}
+footer .footer-navigation-menu {
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-shop {
+    display: flex;
+    flex-direction: column;
+}
+.footer-social-icons {
+    width: auto;
     height: auto;
 }
