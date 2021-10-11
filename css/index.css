@@ -152,6 +152,12 @@ img.cards-img-top {
     color: #222323;
     text-align: center;
 }
+@media (min-width: 768px) {
+    .style-card {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 .card-include p{
     color: #717474;
     font-size: 16px;
