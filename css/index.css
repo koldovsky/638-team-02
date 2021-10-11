@@ -30,18 +30,19 @@
     text-align: center;
     font-family: Bebas Neue, cursive;
     font-size: 52px;
-    font-weight: 400;
-    color: #222323;
+    font-weight: 400px;
+    color: #222323;    
 }
+
 .low-header-white{
     font-family: PT Sans,sans-serif;
     font-size: 52px;
-    color: #ffffff;   
+    color: #ffffff;  
 }
 .red-dot {
     color: red;
 }
-.section-discriber {
+.section-discriber {    
     text-align: center;
     font-family: PT Sans,sans-serif;
     font-size: 20px;
@@ -109,19 +110,25 @@
     line-height: 1.5;
     letter-spacing: 0;
 }
+.white-subtitle-of-the-paragraph{
+    color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
 .blocks-group-why-choose-us {
     padding: 50px 0px 90px;
+    text-align: center;
 }
 .block-why-choose {
    text-align: center;
    margin: -50px -15px 0px;
 }
-
 .small-silver-line {
-    position: relative;
-    width: 87.76px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
     display: flex;
-    box-sizing: border-box;
     padding: 0;
     height: 1.5px;
     background-color: #e0e0e0;
@@ -147,15 +154,15 @@ img.cards-img-top {
 .card-include p{
     color: #717474;
     font-size: 16px;
-    font-family: PT Sans, sans-serif;
+    font-family: "PT Sans", sans-serif;
     text-align: center;
 }
 .about-us {
-    background-color: #303030;
+    background-color: #222323;
     padding: 90px 30px;
 }
 .block-about-us {
-    background-color: #303030;
+    background-color: #222323;
     margin: 50px 0px 0px;
     padding: 0px 15px;
     /*margin-top: -50px;
@@ -167,30 +174,29 @@ img.cards-img-top {
 }
 .main-collection {
     text-align: center;
-    font-family: Bebas Neue,cursive;
+    font-family: "Bebas Neue",cursive;
     font-size: 23px;
     letter-spacing: 2px;
 }
 div.w-collection a {
     text-align: left;
     text-decoration: none;
-    font-family:PT Sans,sans-seri;
+    font-family:"PT Sans",sans-seri;
     color: rgb(255, 0, 0);
     margin-top: 8px;
 
 }
-
 div.man-collection a {
     text-align: left;
     text-decoration: none;
-    font-family:PT Sans,sans-seri;
+    font-family: "PT Sans",sans-seri;
     color: rgb(255, 0, 0);
     margin-top: 8px;
 }
 div.shoes-collection a {
     text-align: left;
     text-decoration: none;
-    font-family:PT Sans,sans-seri;
+    font-family: "PT Sans",sans-seri;
     color: rgb(255, 0, 0);
     margin-top: 8px;
 }
@@ -246,7 +252,7 @@ div.shoes-collection a {
 div .low-header-white {
     background-color: #222323;
     font-size: 62px;
-    font-family: Bebas Neue,cursive;
+    font-family: "Bebas Neue",cursive;
     text-align: left;
     text-transform: none;
     display: flex;
@@ -256,14 +262,14 @@ div .low-header-white {
 .text-body-bra {
     color: #fff;
     font-size: 16px;
-    font-family: PT Sans,sans-serif;
+    font-family: "PT Sans",sans-serif;
     font-weight: bold;
 }
 .text-body-red-sale {
     font-weight: bold;
     color: #f40106;
     font-size: 42px;
-    font-family: PT Sans,sans-serif;
+    font-family: "PT Sans",sans-serif;
     text-transform: none;
 }
 .strike {
@@ -277,7 +283,7 @@ div .low-header-white {
     font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0;
-    font-family: PT Sans,sans-serif;
+    font-family: "PT Sans",sans-serif;
     font-weight: 400;
     color: #fff;
     text-transform: none;
@@ -287,7 +293,7 @@ div .low-header-white {
     font-size: 15px;
     line-height: 1.3333em;
     letter-spacing: 0;
-    font-family: PT Sans,sans-serif;
+    font-family: "PT Sans",sans-serif;
     font-style: normal;
     text-transform: none;
     display: inline-block;
@@ -299,7 +305,7 @@ div .low-header-white {
 div .number {
     color: #fff;
     font-size: 36px;
-    font-family: Bebas Neue,cursive;
+    font-family: "Bebas Neue",cursive;
     font-weight: 400;
     display: block;
     white-space: nowrap;   
@@ -307,7 +313,7 @@ div .number {
 .caption {
     color: #fff;
     font-size: 18px;
-    font-family: PT Sans,sans-serif;
+    font-family: "PT Sans",sans-serif;
     opacity: .54;
 
 }
@@ -315,7 +321,7 @@ div .number {
     font-size: 38px!important;
     line-height: 1.14!important;
     letter-spacing: 0;
-    font-family: Bebas Neue,cursive;
+    font-family: "Bebas Neue",cursive;
     font-weight: 400;
 }
 
