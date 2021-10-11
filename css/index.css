@@ -347,3 +347,35 @@ div .number {
     width: 100%;
     height: auto;
 }
+.footer {
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.65);
+}
+footer .footer-slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:left;
+}
+footer .footer-slogan .footer-logo {
+    height: 200px;
+    width: 200px;
+}
+footer .footer-slogan .footer-slogan-text {
+    display: block;
+    margin: 0px 200px 200px 0px;
+}
+footer .footer-navigation-menu {
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-shop {
+    display: flex;
+    flex-direction: column;
+}
+.footer-social-icons {
+    width: auto;
+    height: auto;
+}
