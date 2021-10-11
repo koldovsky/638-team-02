@@ -1,3 +1,4 @@
+
 .section-header {
     display:block;
     background-image: url(../img/yoga-girl.jpg);
@@ -172,7 +173,7 @@ img.cards-img-top {
     letter-spacing: 2px;
 }
 div.w-collection a {
-    text-align: left;
+    text-align: left; 
     text-decoration: none;
     font-family:PT Sans,sans-seri;
     color: rgb(255, 0, 0);
@@ -201,38 +202,51 @@ div.shoes-collection a {
 } 
 @media(min-width: 500px) {
     .w-collection{
+        text-align: left;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap:5px;
-        grid-column-gap:5px;
+        grid-column-gap:10px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
 }
 @media(min-width:700px){
     .w-collection{
         grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 250px;
+        margin-right: 250px;
     }
 }
 @media(min-width: 500px) {
     .man-collection{
+        text-align: left;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap:5px;
-        grid-column-gap:5px;
-        }
+        grid-column-gap:10px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
+}
 @media(min-width:700px){
     .man-collection{
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
+    
     }        
 }
 @media(min-width: 500px) {
     .shoes-collection{
+        text-align: left;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap:5px;
-        grid-column-gap:5px;
-        }
+        grid-column-gap:10px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
+}
 @media(min-width:700px){
     .shoes-collection{
     grid-template-columns: 1fr 1fr 1fr;
