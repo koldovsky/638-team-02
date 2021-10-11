@@ -2,7 +2,7 @@
 .section-header {
     display:block;
     background-image: url(../img/yoga-girl.jpg);
-    background-size: cover;
+    background-size:cover;
     min-height: 800px;
 }
 .section-text {
@@ -219,11 +219,13 @@ div.shoes-collection a {
         grid-template-columns: 1fr 1fr;
         grid-row-gap:5px;
         grid-column-gap:5px;
-        }
     }
+}
 @media(min-width:700px){
     .man-collection{
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
+    
     }        
 }
 @media(min-width: 500px) {
@@ -232,8 +234,8 @@ div.shoes-collection a {
         grid-template-columns: 1fr 1fr;
         grid-row-gap:5px;
         grid-column-gap:5px;
-        }
     }
+}
 @media(min-width:700px){
     .shoes-collection{
     grid-template-columns: 1fr 1fr 1fr;
