@@ -481,3 +481,36 @@ footer .footer-subtitle {
     width: 297px;
     height: 155px;
 }
+.section-headertwo {
+    display:block;
+    background-image: url(../img/get-your-discount.png);
+    background-size:cover;
+    min-height: 800px;
+}
+.section-slogantwo {
+    margin: 0;
+    font-family: var(--big-font);
+    font-size: 22px;
+    text-align: left;
+    color: rgba(255,255,255,0.62);
+}
+.section-main-texttwo {
+
+        display: block;
+        text-align: left;
+        font-family: Bebas Neue, cursive;
+        font-size: 62px;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        color: #fff;
+}
+.shop-now{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin:  5px;
+    text-decoration: none;
+    font-family: PT Sans, sans-serif;
+}
