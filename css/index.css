@@ -1,4 +1,10 @@
-
+.section-hero {
+    display:block;
+    background-image: url(../img/nike-background.png);
+    background-size:cover;
+    min-height: 800px;
+    
+}
 .section-header {
     display:block;
     background-image: url(../img/yoga-girl.jpg);
