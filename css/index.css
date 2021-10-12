@@ -60,6 +60,12 @@
     font-family: PT Sans,sans-serif;
     font-size: 52px;
     color: #ffffff;  
+    
+}
+.about-header-white{
+    font-family: Bebas Neue, cursive;
+    font-size: 52px;
+    color: #ffffff;  
 }
 .red-dot {
     color: red;
@@ -184,10 +190,7 @@ img.cards-img-top {
     font-family: "PT Sans", sans-serif;
     text-align: center;
 }
-img.top-image-about{
-    object-position: 55.202% 13.885%;
-    object-fit: cover;
-}
+
 .about-us {
     background-color: #222323;
     padding: 90px 30px;
@@ -199,6 +202,13 @@ img.top-image-about{
     /*margin-top: -50px;
     margin-left: -15px;
     margin-right: -15px;*/
+}
+.img.img-two-men{
+    padding: -15px 0px -15px;
+    display: flex;
+  align-items: flex-start;
+  float: left;
+    flex-direction: column;
 }
 .main-collection {
     text-align: center;
