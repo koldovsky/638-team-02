@@ -218,9 +218,6 @@ img.cards-img-top {
 }
 .main-collection {
     text-align: center;
-}
-.main-collection {
-    text-align: center;
     font-family: "Bebas Neue",cursive;
     font-size: 23px;
     letter-spacing: 2px;
@@ -228,7 +225,7 @@ img.cards-img-top {
 div.w-collection a {
     text-align: left; 
     text-decoration: none;
-    font-family:"PT Sans",sans-seri;
+    font-family:"PT Sans",sans-serif;
     color: rgb(255, 0, 0);
     margin-top: 8px;
 
@@ -236,14 +233,14 @@ div.w-collection a {
 div.man-collection a {
     text-align: left;
     text-decoration: none;
-    font-family: "PT Sans",sans-seri;
+    font-family: "PT Sans",sans-serif;
     color: rgb(255, 0, 0);
     margin-top: 8px;
 }
 div.shoes-collection a {
     text-align: left;
     text-decoration: none;
-    font-family: "PT Sans",sans-seri;
+    font-family: "PT Sans",sans-serif;
     color: rgb(255, 0, 0);
     margin-top: 8px;
 }
@@ -262,7 +259,19 @@ div.shoes-collection a {
     color: rgb(0, 0, 0, 0.7);
 
 }
-@media(min-width: 500px) {
+.main-collection img {
+    width: 100%;
+    height: auto;
+}
+@media(max-width: 464px) {
+    .w-collection{
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap:10px;
+    } 
+}  
+@media(min-width: 465px) {
     .w-collection{
         text-align: left;
         display: grid;
@@ -276,7 +285,15 @@ div.shoes-collection a {
         grid-template-columns: 1fr 1fr 1fr;        
     }
 }
-@media(min-width: 500px) {
+@media(max-width: 464px) {
+    .man-collection{
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap:10px;
+    } 
+}  
+@media(min-width: 465px) {
     .man-collection{
         text-align: left;
         display: grid;
@@ -291,6 +308,14 @@ div.shoes-collection a {
     grid-template-columns: 1fr 1fr 1fr;
     }        
 }
+@media(max-width: 464px) {
+    .shoes-collection{
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap:10px;
+    } 
+}  
 @media(min-width: 500px) {
     .shoes-collection{
         text-align: left;
