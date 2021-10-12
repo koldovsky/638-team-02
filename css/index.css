@@ -2,6 +2,10 @@
     --big-font: Bebas Neue, cursive;
     --smaller-font: PT Sans, sans-serif;
 }
+body {
+    max-width: 980px;
+    margin: auto;
+}
 .collections {
     display: flex;
     flex-direction: row;
@@ -17,14 +21,16 @@
     display:block;
     background-image: url(../img/nike-background.png);
     background-size:cover;
-    min-height: 800px;
+    background-position: center;
+    min-height: 560px;
     
 }
 .section-header {
     display:block;
     background-image: url(../img/yoga-girl.jpg);
     background-size:cover;
-    min-height: 800px;
+    background-position: center;
+    min-height: 560px;
 }
 .section-text {
     display:block;
@@ -470,4 +476,8 @@ footer .footer-subtitle {
     font-size: 2rem;
     color: white;
     text-align: center;
+}
+.carousel-cards {
+    width: 297px;
+    height: 155px;
 }
