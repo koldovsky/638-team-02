@@ -375,8 +375,9 @@ div .number {
 }
 @media (min-width: 760px) {
     .footer {
-        flex-direction: row;
-        justify-content:space-between;
+        display: grid;
+        grid-template-columns: 40% 1fr 1fr 30%;
+        align-items:stretch;
     }
 }
 footer .footer-slogan {
@@ -387,9 +388,9 @@ footer .footer-slogan {
 }
 @media (min-width: 760px) {
     footer .footer-slogan {
-        align-items: flex-start;
         padding-right: 100px;
         margin-left: 10px;
+        margin-top: -35px;
     }
 }
 footer .footer-slogan .footer-logo {
@@ -407,6 +408,7 @@ footer .footer-slogan .footer-slogan-text {
 @media (min-width: 760px) {
     footer .footer-slogan .footer-slogan-text {
         padding: 0px;
+        text-align: left;
     } 
 }
 footer .footer-navigation {
@@ -416,14 +418,11 @@ footer .footer-navigation {
     flex-direction: column;
     align-items: center;
 }
-.footer-navigation-menu {
+footer .footer-navigation-menu {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-.footer-link {
     text-decoration: none;
-    color: white;
 }
 footer .footer-shop {
     display: flex;
