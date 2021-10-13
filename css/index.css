@@ -254,9 +254,9 @@ div.shoes-collection a {
     margin-top: 8px;
 }
 .mc-underline {
-    position:relative;
     height: 2px;
     width: 8%;
+    margin: 0 46% 0 46%;
     background-color: #e0e0e0;
 } 
 .mc-text {
@@ -272,6 +272,10 @@ div.shoes-collection a {
     width: 100%;
     height: auto;
 }
+.mc-navigation nav {
+display: flex;
+justify-content:center;
+}
 @media(max-width: 464px) {
     .w-collection{
         text-align: left;
@@ -286,7 +290,7 @@ div.shoes-collection a {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap:5px;
-        grid-column-gap:10px;        
+        grid-column-gap:10px;  
     }
 }
 @media(min-width:700px){
