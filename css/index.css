@@ -376,6 +376,7 @@ justify-content:center;
     background-color: #222323;
     text-align: left;
     flex-direction: column;
+    display: flex;
 }
 div .low-header-white {
     background-color: #222323;
@@ -455,7 +456,35 @@ div .number {
     font-family: "Bebas Neue",cursive;
     font-weight: 400;
 }
-
+.subtitle {
+    font-family: PT Sans,sans-serif;
+    color: #717474;
+}
+.card-shoes {
+    font-family: PT Sans,sans-serif;
+    color: #717474;
+}
+.card-jacket {
+    font-family: PT Sans,sans-serif;
+    color: #717474;
+}
+.prise {
+    font-family: PT Sans,sans-serif;
+    color: #f40106;
+}
+.d-block-w-100 {
+    width: 204.141px;
+    height: 204.141px;
+}
+img.pumatop-background {
+    height: fit-content;
+    width: fit-content;
+ }
+ @media (min-width: 760px) {
+    .block-div-month {
+        display: flex; 
+        flex-direction: row;
+        }}
 
 .section-main-img {
     width: 100%;
