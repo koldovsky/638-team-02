@@ -1,3 +1,11 @@
+.burger-logo {
+    height: 40px;
+    width: 168px;
+}
+.container-fluid {
+    background-color: #222323;
+}
+
 :root {
     --big-font: Bebas Neue, cursive;
     --smaller-font: PT Sans, sans-serif;
@@ -9,13 +17,6 @@ body {
 .collections {
     display: flex;
     flex-direction: row;
-}
-.section-menu {
-    background-color: #222323;
-    text-align: center;
-    font-family: PT sans,sans-serif;
-    font-size:16px;
-    color: rgb(255, 255, 255);
 }
 .section-hero {
     display:block;
