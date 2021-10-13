@@ -91,7 +91,6 @@ body {
     font-weight: 400px;
     color: #222323;    
 }
-
 .low-header-white{
     font-family: PT Sans,sans-serif;
     font-size: 52px;
@@ -106,11 +105,11 @@ body {
 .red-dot {
     color: red;
 }
-.section-discriber {    
+.section-discriber {  
+    margin: none;  
     text-align: center;
     font-family: PT Sans,sans-serif;
     font-size: 20px;
-    font-weight: 400;
     color: rgb(113, 116, 116);
 }
 .name-of-good {
@@ -182,28 +181,36 @@ body {
 }
 .blocks-group-why-choose-us {
     padding: 50px 0px 90px;
-    text-align: center;
 }
 .block-why-choose {
    text-align: center;
-   margin: -50px -15px 0px;
+}
+.line{
+    padding: 15px 0px 15px 0px;
 }
 .small-silver-line {
+    text-align: center;
+    padding: 15px;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 8%;
     display: flex;
     padding: 0;
-    height: 1.5px;
+    height: 2px;
     background-color: #e0e0e0;
 }
+.four-cards-why{
+    display: flex;
+}
 .style-card{
-    display: inline-block;
+    display: flex;
     border:2px solid #e0e0e0;
     width: 200px;
     margin: 50px 10px 0px;
     padding: 25px 15px;
     text-align: center;
+    min-height: 196.4px;
 }
 img.cards-img-top {
     width: 50px;
@@ -227,8 +234,10 @@ img.cards-img-top {
     text-align: center;
 }
 .part-about-us {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        /*display: flex;
+    flex-direction: column;*/
 }
 @media (min-width: 760px){
     .part-about-us {
@@ -246,6 +255,8 @@ img.cards-img-top {
     padding: 0px 15px;
 }
 img.img-two-men{
+    display: block;
+    width: 100%;
     height: fit-content;
     width: fit-content;
 }
