@@ -197,7 +197,16 @@ img.cards-img-top {
     font-family: "PT Sans", sans-serif;
     text-align: center;
 }
-
+.part-about-us {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 760px){
+    .part-about-us {
+        display: flex;
+        flex-direction: row;
+    }
+}
 .about-us {
     background-color: #222323;
     padding: 90px 30px;
