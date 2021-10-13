@@ -1,3 +1,4 @@
+
 .section-menu {
     text-align: center;
     font-family: PT Sans, sans-serif;
@@ -19,9 +20,32 @@ body {
     max-width: 980px;
     margin: auto;
 }
-.collections {
+.collections-three-cards {
     display: flex;
     flex-direction: row;
+    text-align: left;
+}
+.three-cards-one {
+    display: block;
+    background-image: url(../img/img-man-shoes-background.svg);
+    background-size:cover;
+    background-position: center;
+    min-height: 300px;
+}
+.three-cards-two {
+    display: block;
+    background-image: url(../img/img-skate-background.png);
+    background-size:cover;
+    background-position: center;
+    min-height: 300px;
+
+}
+.three-cards-three {
+    display: block;
+    background-image: url(../img/img-top-background.png);
+    background-size:cover;
+    background-position: center;
+    min-height: 300px;
 }
 .section-hero {
     display:block;
