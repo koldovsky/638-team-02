@@ -393,7 +393,7 @@ div .low-header-white {
     font-family: "Bebas Neue",cursive;
     text-align: left;
     text-transform: none;
-    display: flex;
+    display: block;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -488,6 +488,9 @@ div .number {
 img.pumatop-background {
     height: fit-content;
     width: fit-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
  }
  @media (min-width: 760px) {
     .block-div-month {

@@ -1,4 +1,4 @@
-const sectionSlogan = document.querySelector('.section-header .section-text .section-slogan');
+const sectionSlogan = document.querySelector('.strike');
 sectionSlogan.innerText += '!';
 //setInterval( () => sectionSlogan.hidden = !sectionSlogan.hidden, 500 );
 
