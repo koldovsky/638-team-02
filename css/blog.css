@@ -1,0 +1,15 @@
+.products-carousel {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+  }
+  
+.products-carousel .slide {
+    display: flex;
+  }
+  
+  
+ .products-carousel .slide img {
+    display: block;
+    width: 100%;
+  }
+  
