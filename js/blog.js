@@ -36,7 +36,7 @@
       showCurrentSlide();
     }
   
-    setInterval(nextSlide, 3000);
+    setInterval(nextSlide, 9000);
   
     document
       .querySelector(".products-carousel .next")
