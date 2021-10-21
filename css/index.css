@@ -493,7 +493,11 @@ div .number {
 img.pumatop-background {
     height: fit-content;
     width: fit-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
  }
+ 
  @media (min-width: 760px) {
     .block-div-month {
         display: flex; 
