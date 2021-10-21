@@ -1,4 +1,7 @@
-
+.container {
+    max-width: 980px;
+    margin: auto;
+}
 .section-menu {
     text-align: center;
     font-family: PT Sans, sans-serif;
@@ -15,10 +18,6 @@
 :root {
     --big-font: Bebas Neue, cursive;
     --smaller-font: PT Sans, sans-serif;
-}
-body {
-    max-width: 980px;
-    margin: auto;
 }
 .collections-three-cards {
     display: flex;
@@ -138,6 +137,7 @@ body {
     margin-right: 15px;
 
 }
+
 @media (min-width: 320px) {
     .season-sale-cards {
         display: flex;
@@ -159,13 +159,17 @@ body {
 }
 @media (min-width: 980px) {
     .season-sale-cards {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-start;
     }
 }
-
+.add-to-cart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
 .white-text-of-the-paragraph {
     color: #ffffff;
     font-family: "PT Sans", sans-serif;
