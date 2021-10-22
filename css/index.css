@@ -1,3 +1,47 @@
+.container {
+    max-width: 1200px;
+    margin: auto
+}
+
+.horizontal-wrapper {
+    background-color: #df0004;
+    padding: 8px 40px;
+    display: block;
+}
+
+.horizontal-wrapper-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-one {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* .center-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block{
+    display: block;
+} */
+.section-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.text-style-header {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 .section-menu {
     text-align: center;
     font-family: PT Sans, sans-serif;
@@ -16,11 +60,6 @@
 :root {
     --big-font: Bebas Neue, cursive;
     --smaller-font: PT Sans, sans-serif;
-}
-
-body {
-    max-width: 980px;
-    margin: auto;
 }
 
 .collections-three-cards {
@@ -203,16 +242,18 @@ body {
     font-size: 20px;
     line-height: 1.5;
 }
+
 .blocks-group-why-choose-us {
     padding: 50px 0px 105px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .block-why-choose {
     text-align: center;
-    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .line {
@@ -233,22 +274,32 @@ body {
 
 .four-cards-why {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
-@media(max-width: 991px){
-    .four-cards-why{
+
+@media(min-width: 991px) {
+    .four-cards-why {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
-@media(max-width: 767px){
-    .four-cards-why{
+
+@media(min-width: 767px) {
+    .four-cards-why {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width: 1000px) {
+    .four-cards-why {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
 .style-card {
+    justify-self: center;
     display: flex;
     border: 2px solid #e0e0e0;
     width: 200px;
@@ -256,12 +307,13 @@ body {
     padding: 25px 15px 0px 15px;
     text-align: center;
     min-height: 196.4px;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 img.cards-img-top {
     width: 50px;
     height: 50px;
+    justify-content: center;
 }
 
 .card-include h2 {
@@ -269,34 +321,30 @@ img.cards-img-top {
     font-size: 22px;
     color: #222323;
     text-align: center;
-}
 
-/*@media (min-width: 768px) {
-    .style-card {
-        grid-template-columns: 1fr 1fr;
-    }
-}*/
+}
 
 .card-include p {
     color: #717474;
     font-size: 16px;
     font-family: "PT Sans", sans-serif;
     text-align: center;
+
 }
+
 img.top-image-about {
-    height: fit-content;
-    width: fit-content;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .about-us {
     background-color: #222323;
-    padding: 90px 30px;
     background-color: #222323;
     text-align: left;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
 }
 
 @media (min-width: 760px) {
@@ -306,17 +354,15 @@ img.top-image-about {
     }
 }
 
-.block-about-us {
-    background-color: #222323;
-    margin: 50px 0px 0px;
-    padding: 0px 15px;
+img.social-icons {
+    height: 31px;
+    width: 31px;
 }
 
-img.top-image-about {
-    display: block;
-    width: 100%;
-    height: fit-content;
-    width: fit-content;
+.block-about-us {
+    background-color: #222323;
+    margin: 90px 30px 90px 30px;
+    padding: 0px 15px;
 }
 
 .main-collection {
