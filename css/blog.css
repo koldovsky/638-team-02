@@ -1,20 +1,50 @@
 .products-carousel {
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-  }
-  
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+}
+
 .products-carousel .slide {
-    display: flex;
-  }
-  
-  
- .products-carousel .slide img {
-    display: block;
-    width: 100%;
-    height: 30ex;
-  }
-  .carosel-button {
-    border-radius: 100%;
-    height: 20%;
-  }
-  
+  display: flex;
+}
+
+
+.products-carousel .slide img {
+  display: block;
+  width: 100%;
+  height: 30ex;
+}
+
+.carosel-button {
+  border-radius: 100%;
+  height: 20%;
+}
+
+.blog {
+  display: block;
+  padding: 50px 0 100px 0;
+}
+
+.the-blog {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.header-blog {
+  display: block;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-class-inner {
+  font-family: "PT Sans";
+  display: flex;
+  height: 450px;
+  width: 100%;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32;
+  align-items: center;
+  border: 1px solid rgba(33, 39, 54, 0.12);
+}

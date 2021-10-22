@@ -1,0 +1,121 @@
+.blocks-group-why-choose-us {
+    padding: 50px 0px 105px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block-why-choose {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.line {
+    padding: 15px 0px 15px 0px;
+}
+
+.small-silver-line {
+    padding: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    display: flex;
+    padding: 0;
+    height: 1.5px;
+    background-color: #e0e0e0;
+}
+
+.four-cards-why {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(min-width: 991px) {
+    .four-cards-why {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 767px) {
+    .four-cards-why {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 1000px) {
+    .four-cards-why {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.style-card {
+    justify-self: center;
+    display: flex;
+    border: 2px solid #e0e0e0;
+    width: 200px;
+    margin: 50px 10px 0px;
+    padding: 25px 15px 0px 15px;
+    text-align: center;
+    min-height: 196.4px;
+    justify-content: center;
+}
+
+img.cards-img-top {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+.card-include h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 22px;
+    color: #222323;
+    text-align: center;
+
+}
+
+.card-include p {
+    color: #717474;
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+
+}
+
+img.top-image-about {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-us {
+    background-color: #222323;
+    background-color: #222323;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 760px) {
+    .about-us {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+img.social-icons {
+    height: 31px;
+    width: 31px;
+}
+
+.block-about-us {
+    background-color: #222323;
+    margin: 90px 30px 90px 30px;
+    padding: 0px 15px;
+}
