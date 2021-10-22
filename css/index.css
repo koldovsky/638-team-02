@@ -1,17 +1,25 @@
+.container {
+    max-width: 1200px;
+    margin: auto
+}
+
 .horizontal-wrapper {
     background-color: #df0004;
     padding: 8px 40px;
     display: block;
 }
+
 .horizontal-wrapper-inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .section-one {
     display: flex;
     justify-content: flex-start;
 }
+
 /* .center-block{
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +27,7 @@
 .block{
     display: block;
 } */
-.section-contacts{
+.section-contacts {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -52,11 +60,6 @@
 :root {
     --big-font: Bebas Neue, cursive;
     --smaller-font: PT Sans, sans-serif;
-}
-
-body {
-    max-width: 980px;
-    margin: auto;
 }
 
 .collections-three-cards {
