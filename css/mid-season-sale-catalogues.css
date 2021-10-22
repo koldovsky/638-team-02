@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+:root {
+    --main-font: PT Sans, sans-serif;
+    --reserve-font: Bebas Neue, cursive;
+}
+body {
+    margin-left: 5%;
+}
+.store-homepage {
+    display:block;
+    font-family: var(--main-font);
+    color: rgb(244, 1, 6);
+}
+.store-homepage a {
+    text-decoration: none;
+}
+.catalogue-content .catalogue-images {
+    display: flex;
+    flex-direction: column;
+}
+.catalogue-content .catalogue-images .main-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.catalogue-content .catalogue-images .main-image img {
+    width: 75%;
+}
+.catalogue-content .catalogue-images .reserve-image img {
+    border: 1px solid black;
+    padding: 1px;
+    width: 15%;
+}
+.catalogue-text {
+    font-family: var(--main-font);
+    display: flex;
+    flex-direction: column;
+}
+.catalogue-presence {
+    color: rgb(97, 168, 84);
+}
+.catalogue-text .catalogue-header {
+    font-size: 22px;
+    font-family: var(--reserve-font);
+    font-weight: 100;
+}
+.catalogue-text .catalogue-code {
+    font-size: 14px;
+    font-weight: 50;
+}
+.catalogue-text .catalogue-price {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(113, 116, 116);
+}
+.catalogue-content {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 760px) {
+    .catalogue-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
