@@ -252,8 +252,8 @@
 
 .block-why-choose {
     text-align: center;
-    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .line {
@@ -274,24 +274,32 @@
 
 .four-cards-why {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-@media(max-width: 991px) {
+@media(min-width: 991px) {
     .four-cards-why {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media(max-width: 767px) {
+@media(min-width: 767px) {
     .four-cards-why {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width: 1000px) {
+    .four-cards-why {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
 .style-card {
+    justify-self: center;
     display: flex;
     border: 2px solid #e0e0e0;
     width: 200px;
