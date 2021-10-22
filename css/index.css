@@ -136,6 +136,7 @@
 }
 
 .low-header-black {
+    padding: 0;
     text-align: center;
     font-family: var(--big-font);
     font-size: 52px;
@@ -267,7 +268,7 @@
     width: 8%;
     display: flex;
     padding: 0;
-    height: 2px;
+    height: 1.5px;
     background-color: #e0e0e0;
 }
 
@@ -290,6 +291,7 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media(min-width: 1000px) {
     .four-cards-why {
         display: grid;
@@ -576,10 +578,10 @@ div .low-header-white {
     justify-content: center;
     position: relative;
     margin: 35px;
-    
+
 }
 
-.content-days  {
+.content-days {
     border: 1px solid #d7baba;
     border-radius: 5px;
     webkit-flex-grow: 4;
@@ -591,9 +593,10 @@ div .low-header-white {
     padding-left: auto;
     padding-bottom: auto;
     padding-right: auto;
-    
-    }
-    .content-hours {
+
+}
+
+.content-hours {
     border: 1px solid #d7baba;
     border-radius: 5px;
     webkit-flex-grow: 4;
@@ -602,24 +605,12 @@ div .low-header-white {
     content: "";
     display: block;
     padding-top: auto;
-    padding-left: auto;
-    padding-bottom: auto;
-    padding-right: auto; 
-    }
-    .content-minutes {
-    border: 1px solid #d7baba;
-    border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
-    font-size: 0;
-    content: "";
-    display: block;
-   padding-top: auto;
     padding-left: auto;
     padding-bottom: auto;
     padding-right: auto;
-    }
-    .content-seconds {
+}
+
+.content-minutes {
     border: 1px solid #d7baba;
     border-radius: 5px;
     webkit-flex-grow: 4;
@@ -630,8 +621,22 @@ div .low-header-white {
     padding-top: auto;
     padding-left: auto;
     padding-bottom: auto;
-    padding-right: auto; 
-    }
+    padding-right: auto;
+}
+
+.content-seconds {
+    border: 1px solid #d7baba;
+    border-radius: 5px;
+    webkit-flex-grow: 4;
+    webkit-box-flex: 4;
+    font-size: 0;
+    content: "";
+    display: block;
+    padding-top: auto;
+    padding-left: auto;
+    padding-bottom: auto;
+    padding-right: auto;
+}
 
 
 div .number {
@@ -712,6 +717,33 @@ img.pumatop-background {
 .good-img-index-page {
     width: 100%;
     height: auto;
+}
+.blog{
+    display: block;
+    padding: 50px 0 100px 0;
+}
+.the-blog {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.header-blog {
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-class-inner {
+    font-family: "PT Sans";
+    display: flex;
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32;
+    align-items: center;
+    border: 1px solid rgba(33, 39, 54, 0.12);
 }
 
 .footer {
