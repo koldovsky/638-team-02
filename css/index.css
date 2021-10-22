@@ -527,7 +527,67 @@ div .low-header-white {
 
 .countdown {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 35px;
+    
 }
+
+.content-days  {
+    border: 1px solid #d7baba;
+    border-radius: 5px;
+    webkit-flex-grow: 4;
+    webkit-box-flex: 4;
+    font-size: 0;
+    content: "";
+    display: block;
+    padding-top: auto;
+    padding-left: auto;
+    padding-bottom: auto;
+    padding-right: auto;
+    
+    }
+    .content-hours {
+    border: 1px solid #d7baba;
+    border-radius: 5px;
+    webkit-flex-grow: 4;
+    webkit-box-flex: 4;
+    font-size: 0;
+    content: "";
+    display: block;
+    padding-top: auto;
+    padding-left: auto;
+    padding-bottom: auto;
+    padding-right: auto; 
+    }
+    .content-minutes {
+    border: 1px solid #d7baba;
+    border-radius: 5px;
+    webkit-flex-grow: 4;
+    webkit-box-flex: 4;
+    font-size: 0;
+    content: "";
+    display: block;
+   padding-top: auto;
+    padding-left: auto;
+    padding-bottom: auto;
+    padding-right: auto;
+    }
+    .content-seconds {
+    border: 1px solid #d7baba;
+    border-radius: 5px;
+    webkit-flex-grow: 4;
+    webkit-box-flex: 4;
+    font-size: 0;
+    content: "";
+    display: block;
+    padding-top: auto;
+    padding-left: auto;
+    padding-bottom: auto;
+    padding-right: auto; 
+    }
+
 
 div .number {
     color: #fff;
