@@ -1,7 +1,7 @@
 const sectionSlogan = document.querySelector('.strike');
 sectionSlogan.innerText += '!';
 //setInterval( () => sectionSlogan.hidden = !sectionSlogan.hidden, 500 );
-
+5
 const clockContainer = document.querySelector('.clock');
 setInterval( () => clockContainer.innerText = new Date().toLocaleTimeString(), 1000);
 
