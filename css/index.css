@@ -303,7 +303,10 @@ img.top-image-about {
         flex-direction: row;
     }
 }
-
+img.social-icons{
+    height: 31px;
+    width: 31px;
+}
 .block-about-us {
     background-color: #222323;
     margin: 90px 30px 90px 30px;
