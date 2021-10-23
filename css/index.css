@@ -191,7 +191,7 @@
 .season-sale-cards .sale-card {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content:space-between;
     align-items: left;
     margin-bottom: 45px;
     margin-right: 15px;
@@ -222,10 +222,8 @@
 
 @media (min-width: 980px) {
     .season-sale-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
 
