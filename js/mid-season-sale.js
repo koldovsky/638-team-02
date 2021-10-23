@@ -7,7 +7,7 @@
             image: 'img/adidas-trainers.jpg',
             alternative: 'adidas-trainers',
             title: 'Adidas Cloudfoam Trainers',
-            price: 60.00
+            price: '60.00'
         },
         {
             id: 2,
@@ -15,7 +15,7 @@
             image: 'img/reebok-shorts.jpg',
             alternative: 'reebok-shorts',
             title: 'Reebok Workout Shorts',
-            price: 25.00
+            price: '25.00'
         },
         {
             id: 3,
@@ -23,7 +23,7 @@
             image: 'img/puma-shoes.jpg',
             alternative: 'puma-shoes',
             title: 'Puma Fitness Shoes in Gray',
-            price: 60.00
+            price: '60.00'
         },
         {
             id: 4,
@@ -31,15 +31,15 @@
             image: 'img/puma-top.jpg',
             alternative: 'puma-top',
             title: 'Puma Essential Tank Top',
-            price: 43.00
-        }
+            price: '43.00'
+        },
         {
             id: 5,
             reference: 'catalogue-nike-tshirt.html',
             image: 'img/nike-tshirt.jpg',
             alternative: 'nike-tshirt',
             title: 'Nike Classic Polo T-Shirt',
-            price: 23.00
+            price: '23.00'
         }
     ];
 
@@ -62,4 +62,5 @@
     }
 
     renderProducts(midSeasonProducts);
+
 }) ();
