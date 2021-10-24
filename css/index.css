@@ -426,6 +426,8 @@ div .low-header-white {
     font-size: 16px;
     font-family: "PT Sans", sans-serif;
     font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .text-body-red-sale {
@@ -434,6 +436,8 @@ div .low-header-white {
     font-size: 42px;
     font-family: "PT Sans", sans-serif;
     text-transform: none;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .strike {
@@ -441,6 +445,8 @@ div .low-header-white {
     color: #fff;
     font-weight: bold;
     text-decoration: line-through;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
@@ -452,6 +458,8 @@ div .low-header-white {
     font-weight: 400;
     color: #fff;
     text-transform: none;
+    padding-left: 30px;
+    padding-right: 30px;
     
 }
 
@@ -468,6 +476,8 @@ div .low-header-white {
     background-position: 50%;
     cursor: pointer;
     text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .countdown {
@@ -482,10 +492,13 @@ div .low-header-white {
     justify-content: center;
     text-align: center;
     overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    
        
 }
 
-.content-days {
+.content-countdown {
     border: 1px solid #d7baba;
     border-radius: 5px;
     webkit-flex-grow: 4;
@@ -500,59 +513,17 @@ div .low-header-white {
     text-anchor: middle;
     position: relative;
     font-size: 36px;
-
+    margin: 5px;
 }
 
-.content-hours {
-    border: 1px solid #d7baba;
-    border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
-    font-size: 0;
-    content: "";
-    display: block;
-    padding-top: auto;
-    padding-left: auto;
-    padding-bottom: auto;
-    padding-right: auto;
-}
-
-.content-minutes {
-    border: 1px solid #d7baba;
-    border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
-    font-size: 0;
-    content: "";
-    display: block;
-    padding-top: auto;
-    padding-left: auto;
-    padding-bottom: auto;
-    padding-right: auto;
-}
-
-.content-seconds {
-    border: 1px solid #d7baba;
-    border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
-    font-size: 0;
-    content: "";
-    display: block;
-    padding-top: auto;
-    padding-left: auto;
-    padding-bottom: auto;
-    padding-right: auto;
-}
-
-
-div .number {
+.number {
     color: #fff;
-    font-size: 36px;
+    font-size: 20px;
     font-family: "Bebas Neue", cursive;
     font-weight: 400;
     display: block;
     white-space: nowrap;
+    
 }
 
 .caption {
@@ -575,7 +546,6 @@ div .number {
     font-family: PT Sans, sans-serif;
     color: #717474;
 }
-
 
 .card-shoes {
     font-family: PT Sans, sans-serif;
