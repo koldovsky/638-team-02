@@ -259,8 +259,20 @@ img.social-icons {
     margin-top: 70px;
     margin-bottom: 70px;
 }
+#nav-tab .nav-link{
+    color: rgb(255, 0, 0);
+}
+.product-button .mc-button{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin: 15px 5px 5px 0px;
+    text-decoration: none;
+    font-size: 65%;
+    font-family: PT Sans, sans-serif;
+}
 
-div.w-collection a {
+div.w-collection  a{
     text-align: left;
     text-decoration: none;
     font-family: "PT Sans", sans-serif;
@@ -375,7 +387,7 @@ div.shoes-collection a {
     }
 }
 
-@media(min-width: 500px) {
+@media(min-width: 465px) {
     .shoes-collection {
         text-align: left;
         display: grid;
