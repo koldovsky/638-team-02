@@ -3,45 +3,6 @@
     margin: auto;
 }
 
-.horizontal-wrapper {
-    background-color: #df0004;
-    padding: 8px 40px;
-    display: block;
-}
-
-.horizontal-wrapper-inner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.section-one {
-    display: flex;
-    justify-content: flex-start;
-}
-
-/* .center-block{
-    display: flex;
-    flex-wrap: wrap;
-}
-.block{
-    display: block;
-} */
-.section-contacts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-.text-style-header {
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: "PT Sans", sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-}
-
 .section-menu {
     text-align: center;
     font-family: PT Sans, sans-serif;
