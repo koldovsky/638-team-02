@@ -15,7 +15,7 @@
         if(currentSlide >= slides.length) currentSlide = 0;
         showCurrentSlide();
     }
-    setInterval(nextSlide(), 1000);
+    setInterval(nextSlide, 2000);
     showCurrentSlide();
 
-}) ();
+})();
