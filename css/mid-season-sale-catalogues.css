@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('controls.css');
 :root {
     --main-font: PT Sans, sans-serif;
     --reserve-font: Bebas Neue, cursive;
@@ -63,4 +64,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+}
+.catalogue-reference a {
+    text-decoration: none;
 }

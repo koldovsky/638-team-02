@@ -4,10 +4,14 @@ for (let i = 0; i < 3; i++) strike.innerText += '!';
 strike.hidden = true;
 setInterval(() => strike.hidden = !strike.hidden, 1000);
 
-const clockNew = document.querySelector('.clock-new');
-setInterval( () => clockNew.innerText = new Date().toLocaleTimeString(), 1000);
+(function () {
+    const clockNew = document.querySelector('.clock-new');
+    setInterval(() => clockNew.innerText = new Date().toLocaleTimeString(), 1000);
+    
+})();
 
 const countDownContainer = document.querySelector('.countdown');
+
 const startTime = new Date();
 function showCountDown() {
     const limitSecs = 10;

@@ -152,7 +152,7 @@
 .season-sale-cards .sale-card {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content:space-between;
     align-items: left;
     margin-bottom: 45px;
     margin-right: 15px;
@@ -183,10 +183,8 @@
 
 @media (min-width: 980px) {
     .season-sale-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -222,8 +220,20 @@ img.social-icons {
     margin-top: 70px;
     margin-bottom: 70px;
 }
+#nav-tab .nav-link{
+    color: rgb(255, 0, 0);
+}
+.product-button .mc-button{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin: 15px 5px 5px 0px;
+    text-decoration: none;
+    font-size: 65%;
+    font-family: PT Sans, sans-serif;
+}
 
-div.w-collection a {
+div.w-collection  a{
     text-align: left;
     text-decoration: none;
     font-family: "PT Sans", sans-serif;
@@ -338,7 +348,7 @@ div.shoes-collection a {
     }
 }
 
-@media(min-width: 500px) {
+@media(min-width: 465px) {
     .shoes-collection {
         text-align: left;
         display: grid;
@@ -377,6 +387,8 @@ div .low-header-white {
     font-size: 16px;
     font-family: "PT Sans", sans-serif;
     font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .text-body-red-sale {
@@ -385,6 +397,8 @@ div .low-header-white {
     font-size: 42px;
     font-family: "PT Sans", sans-serif;
     text-transform: none;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .strike {
@@ -392,6 +406,8 @@ div .low-header-white {
     color: #fff;
     font-weight: bold;
     text-decoration: line-through;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
@@ -403,6 +419,9 @@ div .low-header-white {
     font-weight: 400;
     color: #fff;
     text-transform: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
 
 .span-more-details {
@@ -418,6 +437,8 @@ div .low-header-white {
     background-position: 50%;
     cursor: pointer;
     text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .countdown {
@@ -426,10 +447,20 @@ div .low-header-white {
     justify-content: center;
     position: relative;
     margin: 35px;
-
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 35px;
+    
+       
 }
 
-.content-days {
+.content-countdown {
     border: 1px solid #d7baba;
     border-radius: 5px;
     webkit-flex-grow: 4;
@@ -441,59 +472,20 @@ div .low-header-white {
     padding-left: auto;
     padding-bottom: auto;
     padding-right: auto;
-
-}
-
-.content-hours {
-    border: 1px solid #d7baba;
-    border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
-    font-size: 0;
-    content: "";
-    display: block;
-    padding-top: auto;
-    padding-left: auto;
-    padding-bottom: auto;
-    padding-right: auto;
-}
-
-.content-minutes {
-    border: 1px solid #d7baba;
-    border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
-    font-size: 0;
-    content: "";
-    display: block;
-    padding-top: auto;
-    padding-left: auto;
-    padding-bottom: auto;
-    padding-right: auto;
-}
-
-.content-seconds {
-    border: 1px solid #d7baba;
-    border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
-    font-size: 0;
-    content: "";
-    display: block;
-    padding-top: auto;
-    padding-left: auto;
-    padding-bottom: auto;
-    padding-right: auto;
-}
-
-
-div .number {
-    color: #fff;
+    text-anchor: middle;
+    position: relative;
     font-size: 36px;
+    margin: 5px;
+}
+
+.number {
+    color: #fff;
+    font-size: 20px;
     font-family: "Bebas Neue", cursive;
     font-weight: 400;
     display: block;
     white-space: nowrap;
+    
 }
 
 .caption {
@@ -503,18 +495,30 @@ div .number {
     opacity: .54;
 
 }
+.title {
+    text-align: center;
+}
 
 .title-new-arrivals {
-    font-size: 38px !important;
+    font-size: 52px !important;
     line-height: 1.14 !important;
     letter-spacing: 0;
     font-family: "Bebas Neue", cursive;
     font-weight: 400;
+    
+    
 }
 
 .subtitle {
-    font-family: PT Sans, sans-serif;
     color: #717474;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    padding-left: 30px;
+    padding-right: 30px;   
 }
 
 .card-shoes {
