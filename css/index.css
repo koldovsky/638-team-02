@@ -39,12 +39,24 @@
     background-color: #df0004;
 } */
 
+}
+.icons-right a {
+    justify-self: ;
+}
+.block-section-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   
+}
 .section-menu {
     text-align: center;
     font-family: PT Sans, sans-serif;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
+    padding: 0 15px;
 }
         .section-menu :hover {
             text-decoration: underline;
@@ -64,15 +76,22 @@
     --smaller-font: PT Sans, sans-serif;
 }
 .container-cards {
-    padding-top: 117px;
+    padding-top: 105px;
     padding-left: 174px;
     padding-right: 174px;
+    padding-bottom: 60px;
 }
 .collections-three-cards {
     display: flex;
     flex-direction: row;
     text-align: left;
     justify-content:space-between;
+    
+}
+@media (max-width: 775px) {
+    .collections-three-cards {
+display: block;
+    }
 }
 
 .span-shop-collection {
@@ -97,7 +116,6 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
-   padding-top: 150px;
 }
 
 .three-cards-two {
@@ -106,7 +124,8 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
-    padding-top: 150px;
+   
+    
 
 }
 
@@ -116,7 +135,8 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
-    padding-top: 150px;
+    
+    
 }
 
 .section-hero {
