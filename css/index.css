@@ -27,7 +27,9 @@
     display: flex;
     flex-direction: row;
     text-align: left;
+    justify-content:space-between;
 }
+
 
 .three-cards-one {
     display: block;
