@@ -2,11 +2,36 @@
     max-width: 1200px;
     margin: auto;
 }
-
+.line {
+    padding: 15px 0px 15px 0px;
+}
+.small-silver-line {
+    padding: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    padding: 0;
+    height: 2px;
+    background-color: #e0e0e0;
+}
+.small-red-line {
+    padding: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16%;
+    padding: 0;
+    height: 2px;
+    background-color: #df0004;
+   
+}
 .section-menu {
     text-align: center;
     font-family: PT Sans, sans-serif;
     color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .burger-logo {
@@ -99,7 +124,6 @@
 }
 
 .low-header-black {
-    padding: 0;
     text-align: center;
     font-family: var(--big-font);
     font-size: 52px;

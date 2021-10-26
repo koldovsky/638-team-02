@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+
 }
 
 @media (min-width: 760px) {
@@ -15,10 +15,7 @@
         align-items: stretch;
     }
 }
-/* .footer-inner {
-    display: block;
-    padding: 70px 32px 45px 32px;
-} */
+
 footer .footer-slogan {
     display: flex;
     flex-direction: column;
