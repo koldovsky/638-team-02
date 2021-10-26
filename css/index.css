@@ -2,30 +2,43 @@
     max-width: 1200px;
     margin: auto;
 }
+
 .line {
-    padding: 15px 0px 15px 0px;
-}
-.small-silver-line {
-    padding: 15px;
     display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.small-silver-line {
+    display: block;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 8%;
-    padding: 0;
     height: 2px;
     background-color: #e0e0e0;
 }
-.small-red-line {
-    padding: 15px;
+.line-left{
+    display: block;
+    text-align: left;
+    padding: 15px 0px;
+    /* font-size:16px;
+    width: 10%;
+    height: 2px; */
+}
+.line-footer-social{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 16%;
-    padding: 0;
+    justify-content: flex-end;
+    padding: 15px 0px;
+}
+.small-red-line {
+    display: block;
+    text-align: left;
+    width: 18%;
     height: 2px;
     background-color: #df0004;
-   
 }
+
 .section-menu {
     text-align: center;
     font-family: PT Sans, sans-serif;
@@ -176,7 +189,7 @@
 .season-sale-cards .sale-card {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: left;
     margin-bottom: 45px;
     margin-right: 15px;
@@ -234,6 +247,7 @@
 img.social-icons {
     height: 31px;
     width: 31px;
+    text-decoration-color: none;
 }
 
 .main-collection {
@@ -244,10 +258,12 @@ img.social-icons {
     margin-top: 70px;
     margin-bottom: 70px;
 }
-#nav-tab .nav-link{
+
+#nav-tab .nav-link {
     color: rgb(255, 0, 0);
 }
-.product-button .mc-button{
+
+.product-button .mc-button {
     color: white;
     background-color: black;
     padding: 15px;
@@ -257,7 +273,7 @@ img.social-icons {
     font-family: PT Sans, sans-serif;
 }
 
-div.w-collection  a{
+div.w-collection a {
     text-align: left;
     text-decoration: none;
     font-family: "PT Sans", sans-serif;
@@ -445,7 +461,7 @@ div .low-header-white {
     text-transform: none;
     padding-left: 30px;
     padding-right: 30px;
-    
+
 }
 
 .span-more-details {
@@ -480,8 +496,8 @@ div .low-header-white {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 35px;
-    
-       
+
+
 }
 
 .content-countdown {
@@ -509,7 +525,7 @@ div .low-header-white {
     font-weight: 400;
     display: block;
     white-space: nowrap;
-    
+
 }
 
 .caption {
@@ -519,6 +535,7 @@ div .low-header-white {
     opacity: .54;
 
 }
+
 .title {
     text-align: center;
 }
@@ -529,8 +546,8 @@ div .low-header-white {
     letter-spacing: 0;
     font-family: "Bebas Neue", cursive;
     font-weight: 400;
-    
-    
+
+
 }
 
 .subtitle {
@@ -542,7 +559,7 @@ div .low-header-white {
     font-weight: 400;
     text-transform: none;
     padding-left: 30px;
-    padding-right: 30px;   
+    padding-right: 30px;
 }
 
 .card-shoes {
