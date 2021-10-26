@@ -39,9 +39,10 @@
     background-color: #df0004;
 } */
 
-}
-.icons-right a {
-    justify-self: ;
+
+.container-navbar {
+    background-color: #222323;
+    padding: 30px 40px ;
 }
 .block-section-menu {
     display: flex;
@@ -90,7 +91,7 @@
 }
 @media (max-width: 775px) {
     .collections-three-cards {
-display: block;
+        display: block;
     }
 }
 
@@ -124,8 +125,6 @@ display: block;
     background-size: cover;
     background-position: center;
     min-height: 300px;
-   
-    
 
 }
 
