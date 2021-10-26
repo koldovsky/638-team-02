@@ -5,6 +5,11 @@
     justify-content: space-between;
     color: #ffffff;
 }
+@media (max-width: 965px) {
+    .horizontal-banner {
+        display: none;
+    }
+}
 
 .banner-inner {
     display: flex;
