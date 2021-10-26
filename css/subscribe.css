@@ -5,18 +5,50 @@
     display: block;
     font-size: 16px;
     padding: 35px 0 45px;
+    text-align: right;
 }
 
 .subscribe-inner {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 40px 0 40px;
-
+}
+.text-subs{
+    display: flex;
+    font-size: 14px;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-family: "PT Sans", "Network resource";
+}
+.red-text{
+    box-sizing:border-box;
+    color:rgb(255, 0, 0);
+    font-size: 21px;
+    font-family: "PT Sans", sans-serif;
+    text-align: left;
+}
 .place-subs {
     border-style: none;
     border-radius: 0%;
     background-color: rgba(34, 35, 35, 0.12);
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    height: 50px;
+    width: 160px
 }
 
 .button-subs {
 
-    background-color: rgba(34, 35, 35, 0.12);
+    background-color: rgb(255, 0, 0);
+    border-style: none;
+    color: #fff;
+    height: 50px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 160px;
 }
