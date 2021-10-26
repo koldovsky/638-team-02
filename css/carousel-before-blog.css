@@ -21,9 +21,23 @@
 .a-background {
     background-image: url(https://res2.weblium.site/res/60080b98d4893c0021b21b64/6010362c704e5a002223b6eb_optimized_1920.webp);
     background-repeat: no-repeat;
+    min-height: 748px;
     display: block;
-    height: 748px;
+    background-size: cover;
+    background-position: center;
+    
+px
+;
 }
-body > div.a-block > div.banner-text {
-  height: 500px;
+.a-block > div.banner-text {
+  display: block;
+  text-align: left;
+  font-family: var(--big-font);
+  font-size: 62px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  color: #222323;
+}
 }
