@@ -46,6 +46,9 @@
     text-decoration: none;
     font-weight: bold;
 }
+        .section-menu :hover {
+            text-decoration: underline;
+        }
 
 .burger-logo {
     height: 40px;
