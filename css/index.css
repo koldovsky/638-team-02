@@ -47,7 +47,11 @@
     --big-font: Bebas Neue, cursive;
     --smaller-font: PT Sans, sans-serif;
 }
-
+.container-cards {
+    padding-top: 117px;
+    padding-left: 174px;
+    padding-right: 174px;
+}
 .collections-three-cards {
     display: flex;
     flex-direction: row;
@@ -57,19 +61,19 @@
 
 .span-shop-collection {
     color: #222323;
-    font-size: 15px;
-    line-height: normal;
-    letter-spacing: 0px;
+    font-size: 14px;
+    line-height: 25.2px;
     font-family: "pT Sans", sans-serif;
     font-style: normal;
-    text-transform: none;
     display: inline-block;
-    text-align: center;
     background-position: 50%;
     cursor: pointer;
     text-align: left;
     padding-left: 30px;
     padding-right: 30px;
+    font-weight: 700;
+    text-decoration-line: none;
+    
 }
 .three-cards-one {
     display: block;
@@ -77,6 +81,7 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
+   padding-top: 150px;
 }
 
 .three-cards-two {
@@ -85,6 +90,7 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
+    padding-top: 150px;
 
 }
 
@@ -94,6 +100,7 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
+    padding-top: 150px;
 }
 
 .section-hero {
