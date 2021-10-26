@@ -1,10 +1,22 @@
-/* .subscribe{
-    background-image: url(..img/background-map.webp);
+.subscribe {
+    background-color: #f5f5f5;
+    /* background-image: url(img/background-map.webp); */
     background-size: cover;
     display: block;
     font-size: 16px;
     padding: 35px 0 45px;
 }
-.subscribe-inner{
+
+.subscribe-inner {
     padding: 0 40px 0 40px;
-} */
+
+.place-subs {
+    border-style: none;
+    border-radius: 0%;
+    background-color: rgba(34, 35, 35, 0.12);
+}
+
+.button-subs {
+
+    background-color: rgba(34, 35, 35, 0.12);
+}
