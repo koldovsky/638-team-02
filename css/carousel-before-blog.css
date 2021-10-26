@@ -18,3 +18,12 @@
   height: 20%;
 }
 
+.a-background {
+    background-image: url(https://res2.weblium.site/res/60080b98d4893c0021b21b64/6010362c704e5a002223b6eb_optimized_1920.webp);
+    background-repeat: no-repeat;
+    display: block;
+    height: 748px;
+}
+body > div.a-block > div.banner-text {
+  height: 500px;
+}
