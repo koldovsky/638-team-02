@@ -699,3 +699,57 @@ img.pumatop-background {
     text-decoration: none;
     font-family: PT Sans, sans-serif;
 }
+
+.card-t-shits {
+    background-image:url(../img/off-all-tshit.png);
+    background-size: cover;
+    min-height: 199.39px;
+    width: 312px;
+    text-align: center;
+    background-color:transparent;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-jackets {
+    background-image:url(../img/off-all-jackets.jpeg);
+    background-size: cover;
+    min-height: 199.39px;
+    width: 312px;
+    text-align: center;
+    background-color:transparent;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card-trainers{
+    background-image:url(../img/off-all-trainers.jpeg);
+    background-size: cover;
+    min-height: 199.39px;
+    width: 312px;
+    text-align: center;
+    background-color:transparent;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name_inner_picture {
+    color: white;
+    text-align: center;
+    font-size: inherit;
+    font-family: "Bebas Neue", cursive;
+    font-size: 30px;
+  
+ }
+
+ .grid_inner {
+    background-color:rgba(0,0,0,0);
