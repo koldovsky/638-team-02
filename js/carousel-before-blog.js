@@ -12,11 +12,11 @@
   function showCurrentSlide() {
     const slideContainer = document.querySelector(".products-carousel .slide");
     slideContainer.innerHTML = slides[currentSlide];
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 1000) {
       const secondSlideIdx =
         currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
       slideContainer.innerHTML += slides[secondSlideIdx];
-      if (window.innerWidth > 900) {
+      if (window.innerWidth > 1000) {
         const thirdSlideIdx =
           secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
         slideContainer.innerHTML += slides[thirdSlideIdx];

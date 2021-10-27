@@ -38,45 +38,45 @@
             </div>
         </div>
         <div class="container-navbar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a href="#"><img class="burger-logo" src="img/logo-nike.svg" alt="logo-nike"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <div class="block-section-menu">
-                            <a class="section-menu" href="#burgerabout">
-                                <p class="text-style-header">About us.</p>
-                            </a><br>
-                            <a class="section-menu" href="#burgermss">
-                                <p class="text-style-header">Sale.</p>
-                            </a><br>
-                            <a class="section-menu" href="#maincoll">
-                                <p class="text-style-header">Collection.</p>
-                            </a>
-                            <a class="section-menu" href="#burgerblog">
-                                <p class="text-style-header">Blog.</p>
-                            </a>
-                            <a class="section-menu" href="#">
-                                <p class="text-style-header">Contact us.</p>
-                            </a><br>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a href="#"><img class="burger-logo" src="img/logo-nike.svg" alt="logo-nike"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <div class="block-section-menu">
+                                <a class="section-menu" href="#burgerabout">
+                                    <p class="text-style-header">About us.</p>
+                                </a><br>
+                                <a class="section-menu" href="#burgermss">
+                                    <p class="text-style-header">Sale.</p>
+                                </a><br>
+                                <a class="section-menu" href="#maincoll">
+                                    <p class="text-style-header">Collection.</p>
+                                </a>
+                                <a class="section-menu" href="#burgerblog">
+                                    <p class="text-style-header">Blog.</p>
+                                </a>
+                                <a class="section-menu" href="#">
+                                    <p class="text-style-header">Contact us.</p>
+                                </a><br>
 
-                            <a href="https://www.facebook.com"><img class="social-icons"
-                                    src="img/facebook-icon-white.svg" alt="Facebook Icon" width="100"></a>
-                            <a href="https://www.instagram.com"><img class="social-icons"
-                                    src="img/instagram-icon-white.svg" alt="Instagtam Icon" width="100"></a>
-                            <a href="https://www.youtube.com"><img class="social-icons" src="img/youtube-icon-white.svg"
-                                    alt="YouTube Icon" width="100"></a>
+                                <a href="https://www.facebook.com"><img class="social-icons"
+                                        src="img/facebook-icon-white.svg" alt="Facebook Icon" width="100"></a>
+                                <a href="https://www.instagram.com"><img class="social-icons"
+                                        src="img/instagram-icon-white.svg" alt="Instagtam Icon" width="100"></a>
+                                <a href="https://www.youtube.com"><img class="social-icons"
+                                        src="img/youtube-icon-white.svg" alt="YouTube Icon" width="100"></a>
 
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
         </div>
     </header>
     <div class="section-hero">
@@ -132,7 +132,7 @@
                                 <div>
                                     <img class="cards-img-top" src="img/global-delivery-icon.svg" alt="delivery icon">
                                 </div>
-                                <div>
+                                <div class="text-in-fout-cards">
                                     <h2 class="title-2-for-cards">Free Shipping Over $90</h2>
                                     <p class="subscription-card">Get advantage of our free worldwide shipping on all
                                         over
@@ -146,7 +146,7 @@
                                 <div>
                                     <img class="cards-img-top" src="img/box-return-icon-grey.svg" alt="box icon">
                                 </div>
-                                <div>
+                                <div class="text-in-fout-cards">
                                     <h2 class="title-2-for-cards">Easy 30-Day return</h2>
                                     <p class="subscription-card">If the item does not suit you, please send it back
                                         to us
@@ -161,7 +161,7 @@
                                 <div>
                                     <img class="cards-img-top" src="img/eco-materials-icon.svg" alt="eco icon">
                                 </div>
-                                <div>
+                                <div class="text-in-fout-cards">
                                     <h2 class="title-2-for-cards">Eco materials</h2>
                                     <p class="subscription-card">All items are made with at least 30% recycled
                                         materials and
@@ -175,7 +175,7 @@
                                 <div>
                                     <img class="cards-img-top" src="img/payment.svg" alt="eco icon">
                                 </div>
-                                <div>
+                                <div class="text-in-fout-cards">
                                     <h2 class="title-2-for-cards">20 payment methods</h2>
                                     <p class="subscription-card">Pay for your orders with credit cards, PayPal,
                                         AliPay, and
@@ -623,9 +623,9 @@
         <p>test</p>
         <main class="container">
             <div class="products-carousel container">
-                <button class="prev carosel-button">back</button>
+                <button class="prev carosel-button"><</button>
                 <div class="slide"></div>
-                <button class="next carosel-button">next</button>
+                <button class="next carosel-button">></button>
             </div>
         </main>
     </section>
@@ -659,9 +659,9 @@
                     <label>
                         <input class="place-subs" type="email" name="user-email" placeholder="Your email address" />
                     </label>
-                    <button class="button-subs" id="my-form-button">Subscribe</button>
-                    <p class="contact-status" id="my-form-status"></p>
+                    <button class="button-subs" type="submit" id="my-form-button">Subscribe</button>
                 </form>
+                <p class="contact-status"></p>
             </div>
         </div>
     </section>

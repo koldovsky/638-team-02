@@ -10,12 +10,15 @@
 .products-carousel .slide img {
   display: block;
   width: 100%;
-  height: 30ex;
+  height: 100%;
 }
 
 .carosel-button {
   border-radius: 100%;
-  height: 20%;
+  height: 2em;
+  width: 2em;
+  margin: auto;
+  border: none;
 }
 
 .a-background {
