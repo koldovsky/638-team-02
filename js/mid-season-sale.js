@@ -1,4 +1,6 @@
 (async function() {
+
+    
     const response = await fetch('mid-season-sale-products.json');
     const midSeasonProducts = await response.json();
 
