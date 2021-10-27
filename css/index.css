@@ -748,7 +748,12 @@ img.pumatop-background {
     font-size: inherit;
     font-family: "Bebas Neue", cursive;
     font-size: 30px;
-  
+    background-color: rgba(34, 35, 35, 0.89);
+    background-origin: padding-box;
+    inline-size: 280.797px;
+    block-size: 115px;
+    position: absolute;
+
  }
 
  .grid_inner {
