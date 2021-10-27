@@ -31,7 +31,7 @@
             price: '43.00',
             description: 'Run in style and confidence in this Puma tank top. High-tech fabric wicks away sweat to keep you in comfort. Classic black color suits everyone.'
 
-        }
+        },
         {
             id: 5,
             header: 'REEBOK WORKOUT SHORTS',
@@ -42,10 +42,10 @@
         },
     ];
 
-    function renderProducts(midSeasonProducts) {
-        const midSeasonProductsContainer = document.querySelector('.catalogue-text');
-        for(const midSeasonProduct of midSeasonProducts) {
-            midSeasonProductsContainer.innerHTML += `
+    function renderProducts(cataloguesTexts) {
+        const cataloguesTextsContainer = document.querySelector('.catalogue-text');
+        for(const cataloguesText of cataloguesTexts) {
+            cataloguesTextsContainer.innerHTML += `
             <div>
                 <p class="catalogue-presence">In Stock</p>
                 <h3 class="catalogue-header">${cataloguesText.header}</h3>
@@ -70,4 +70,7 @@
                 <h5 class="description-header">Description</h5>
                 <p class="goods-description">${cataloguesText.description}</p>
             </div>`
-}) ();
+        }
+    }
+    renderProducts(cataloguesTexts);
+})();

@@ -26,4 +26,26 @@
     document.querySelector('.catalogue-content .catalogue-images .carousel .next').addEventListener('click', nextSlide);
     showCurrentSlide();
 
+    let currentCount = 1;
+    function showCurrentCount() {
+        const countContainer = document.querySelector('.catalogue-content .catalogue-text .catalogue-reference .cart-management .cart-quantity p');
+        countContainer.innerHTML = currentCount;
+    }
+    showCurrentCount();
+
+    function showMoreQuantity() {
+            currentCount++;
+            showCurrentCount();
+        }
+
+        function showLessQuantity() {
+            currentCount--;
+            if(currentCount < 1) currentCount = 1;
+            showCurrentCount();
+        }
+
+
+    document.querySelector('.catalogue-content .catalogue-text .catalogue-reference .cart-management .cart-buttons .cart-up-button').addEventListener('click', showMoreQuantity);
+    document.querySelector('.catalogue-content .catalogue-text .catalogue-reference .cart-management .cart-buttons .cart-down-button').addEventListener('click', showLessQuantity);
+
 })();
