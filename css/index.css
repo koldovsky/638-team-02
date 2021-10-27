@@ -712,6 +712,9 @@ img.pumatop-background {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .card-jackets {
     background-image:url(../img/off-all-jackets.jpeg);
@@ -725,6 +728,9 @@ img.pumatop-background {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
 
 }
 
@@ -740,6 +746,11 @@ img.pumatop-background {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    
 }
 
 .name_inner_picture {
@@ -764,10 +775,11 @@ img.pumatop-background {
      font-size: 14px;
      font-family:"PT Sans", sans-serif;
      box-sizing: border-box;
-   
-          
-
  }
 
  .grid_inner {
     background-color:rgba(0,0,0,0);
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
