@@ -663,14 +663,14 @@ img.pumatop-background {
     height: 155px;
 }
 
-.section-headertwo {
+.section_baner {
     display: block;
     background-image: url(../img/get-your-discount.png);
     background-size: cover;
     min-height: 800px;
 }
 
-.section-slogantwo {
+.section_name {
     margin: 0;
     font-family: var(--big-font);
     font-size: 22px;
@@ -678,7 +678,7 @@ img.pumatop-background {
     color: rgba(255, 255, 255, 0.62);
 }
 
-.section-main-texttwo {
+.section_words {
 
     display: block;
     text-align: left;
