@@ -96,6 +96,28 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
+.catalogue-reference {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+.catalogue-reference .cart-management {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.catalogue-reference .cart-management .cart-buttons {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.catalogue-reference .cart-management .cart-buttons img {
+    width: 10px;
+    height: 6px;
+}
+.catalogue-reference .cart-management .cart-buttons .cart-down-button {
+transform: rotate(180deg);
+}
 .catalogue-reference a {
     text-decoration: none;
 }
