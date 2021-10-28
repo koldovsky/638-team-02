@@ -6,6 +6,10 @@
     --reserve-font: Bebas Neue, cursive;
 }
 body {
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.container {
     margin-left: 5%;
 }
 .store-homepage {
