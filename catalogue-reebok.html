@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogue-Reebok</title>
     <link rel="stylesheet" href="css/mid-season-sale-catalogues.css">
+    <link rel="stylesheet" href="css/mid-season-sale-footer.css">
+
 </head>
 <body>
     <div class="store-homepage">
@@ -32,8 +34,17 @@
                 <p class="catalogue-price">$25,00</p>
             </div>
             <div class="catalogue-reference">
-                <a href="#">
-                    <p class="catalogue-add-to-cart-button">Add to cart</p>
+                <div class="cart-management">
+                    <div class="cart-quantity">
+                        <p>1</p>
+                    </div>
+                    <div class="cart-buttons">
+                        <img class="cart-up-button" src="img/mid-season-sale-cart-up.svg" alt="Arrow Up">
+                        <img class="cart-down-button" src="img/mid-season-sale-cart-down.svg" alt="Arrow Down">
+                    </div>
+                </div>
+                <a class="catalogue-add-to-cart-button" href="#">
+                    <p>Add to cart</p>
                 </a>
             </div>
             <div>
@@ -42,6 +53,46 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer-slogan">
+            <img class="footer-logo" src="img/logo-nike.svg" alt="Main logo">
+            <p class="footer-slogan-text">Workout offers fitness clothing and footwear for
+                those who want to change their lives and bodies for better.
+            </p>
+        </div>
+        <div class="footer-navigation">
+            <h3 class="footer-subtitle">Navigation</h3>
+            <div class="footer-navigation-menu">
+                <a href="#" class="text-navigation-menu">About us.</a>
+                <a href="#" class="text-navigation-menu">Collection.</a>
+                <a href="#" class="text-navigation-menu">Blog.</a>
+                <a href="#" class="text-navigation-menu">Contacts.</a>
+            </div>
+        </div>
+        <div class="footer-shop">
+            <h3 class="footer-subtitle">Shop</h3>
+            <div class="footer-navigation-menu">
+                <a href="#" class="text-navigation-menu">Women.</a>
+                <a href="#" class="text-navigation-menu">Men.</a>
+                <a href="#" class="text-navigation-menu">Shoes.</a>
+                <a href="#" class="text-navigation-menu">Sale.</a>
+            </div>
+        </div>
+        <div class="footer-social">
+            <h3 class="footer-subtitle">Follow us</h3>
+            <div>
+                <a href="https://www.facebook.com/"> <img class="social-icons" src="img/facebook-icon-red.svg"
+                        alt="Facebook Logo">
+                </a>
+                <a href="https://www.instagram.com/"> <img class="social-icons" src="img/instagram-icon-red.svg"
+                        alt="Instagram Logo">
+                </a>
+                <a href="https://www.youtube.com"> <img class="social-icons" src="img/youtube-icon-red.svg"
+                        alt="Youtube Logo">
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="js/mid-season-sale-carousel.js"></script>
     </body>
 </html>
