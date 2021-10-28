@@ -725,8 +725,8 @@ img.pumatop-background {
 
     display: block;
     text-align: left;
-    font-family: Bebas Neue, cursive;
-    font-size: 62px;
+    font-family: var(--big-font);
+    font-size: 124px;
     font-weight: 400;
     margin-top: 20px;
     margin-block-start: 0px;
@@ -818,7 +818,7 @@ img.pumatop-background {
 .name_inner_picture {
     color: white;
     text-align: center;
-    font-family: "Bebas Neue", cursive;
+    font-family: var(--big-font);
     font-size: 30px;
     position: relative;
 
