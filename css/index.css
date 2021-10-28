@@ -777,7 +777,15 @@ img.pumatop-background {
     margin-left: 15px;
     margin-right: 15px;
     
-    
+}
+
+@media (min-width: 790px ){
+    .grid_inner{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-end: 5px;
+        grid-column-end: 5px;
+    }
 }
 
 .name_inner_picture {
@@ -802,6 +810,7 @@ img.pumatop-background {
      font-size: 14px;
      font-family:"PT Sans", sans-serif;
      box-sizing: border-box;
+     margin-bottom: -80px;
  }
 
  .grid_inner {
