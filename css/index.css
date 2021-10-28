@@ -667,7 +667,9 @@ img.pumatop-background {
     display: block;
     background-image: url(../img/get-your-discount.png);
     background-size: cover;
-    min-height: 800px;
+    min-height: 560px;
+    background-position: center;
+                
 }
 
 .section_name {
