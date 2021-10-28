@@ -795,17 +795,23 @@ img.pumatop-background {
     }
 }
 
+
+.background_fon {
+    background-color: rgba(34, 35, 35, 0.89);
+    inline-size: 280.797px;
+    block-size: 115px;
+    background-origin: padding-box;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+}
+
 .name_inner_picture {
     color: white;
     text-align: center;
-    font-size: inherit;
     font-family: "Bebas Neue", cursive;
     font-size: 30px;
-    background-color: rgba(34, 35, 35, 0.89);
-    background-origin: padding-box;
-    inline-size: 280.797px;
-    block-size: 115px;
-    position: absolute;
+    position: relative;
 
  }
 
@@ -818,6 +824,7 @@ img.pumatop-background {
      font-family:"PT Sans", sans-serif;
      box-sizing: border-box;
      margin-bottom: -80px;
+    
  }
 
  .grid_inner {
