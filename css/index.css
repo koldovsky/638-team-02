@@ -9,7 +9,7 @@
     padding: 15px 0px;
 }
 
-.small-silver-line {
+/* .small-silver-line {
     display: block;
     text-align: center;
     margin-left: auto;
@@ -17,20 +17,8 @@
     width: 8%;
     height: 2px;
     background-color: #e0e0e0;
-}
-.line-left{
-    display: block;
-    text-align: left;
-    padding: 15px 0px;
-    /* font-size:16px;
-    width: 10%;
-    height: 2px; */
-}
-.line-footer-social{
-    display: flex;
-    justify-content: flex-end;
-    padding: 15px 0px;
-}
+} */
+
 /* .small-red-line {
     display: block;
     text-align: left;
@@ -39,18 +27,28 @@
     background-color: #df0004;
 } */
 
-
 .container-navbar {
     background-color: #222323;
-    padding: 30px 40px ;
+    padding: 30px 40px;
 }
+
+nav.navbar navbar-expand-lg navbar-light bg-light {
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
 .block-section-menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-   
 }
+.right-icons {
+    margin-left: 650px;
+}
+
 .section-menu {
     text-align: center;
     font-family: PT Sans, sans-serif;
@@ -59,9 +57,11 @@
     font-weight: bold;
     padding: 0 15px;
 }
-        .section-menu :hover {
-            text-decoration: underline;
-        }
+
+.section-menu :hover {
+    text-decoration: underline;
+    color:#df0004;
+}
 
 .burger-logo {
     height: 40px;
@@ -76,19 +76,22 @@
     --big-font: Bebas Neue, cursive;
     --smaller-font: PT Sans, sans-serif;
 }
+
 .container-cards {
     padding-top: 105px;
     padding-left: 174px;
     padding-right: 174px;
     padding-bottom: 60px;
 }
+
 .collections-three-cards {
     display: flex;
     flex-direction: row;
     text-align: left;
-    justify-content:space-between;
-    
+    justify-content: space-between;
+
 }
+
 @media (max-width: 775px) {
     .collections-three-cards {
         display: block;
@@ -109,8 +112,9 @@
     padding-right: 30px;
     font-weight: 700;
     text-decoration-line: none;
-    
+
 }
+
 .three-cards-one {
     display: block;
     background-image: url(../img/img-man-shoes-background.svg);
@@ -134,8 +138,8 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
-    
-    
+
+
 }
 
 .section-hero {
@@ -192,13 +196,32 @@
     font-family: PT Sans, sans-serif;
     font-size: 52px;
     color: #ffffff;
-
 }
 
 .about-header-white {
     font-family: Bebas Neue, cursive;
     font-size: 52px;
     color: #ffffff;
+}
+
+.line-after-red::after {
+    content: "";
+    display: inline-block;
+    text-align: left;
+    margin: 15px 0;
+    width: 80px;
+    height: 2px;
+    background-color: #df0004;
+}
+
+.line-after-silver::after {
+    content: "";
+    display: inline-block;
+    text-align: center;
+    margin: 15px 0;
+    width: 80px;
+    height: 2px;
+    background-color: #e0e0e0;
 }
 
 .red-dot {
@@ -295,6 +318,8 @@ img.social-icons {
     width: 31px;
     text-decoration-color: none;
 }
+
+
 
 .main-collection {
     text-align: center;
@@ -549,8 +574,8 @@ div .low-header-white {
 .content-countdown {
     border: 1px solid #d7baba;
     border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
+    -webkit-flex-grow: 4;
+    -webkit-box-flex: 4;
     font-size: 0;
     content: "";
     display: block;
@@ -752,7 +777,15 @@ img.pumatop-background {
     margin-left: 15px;
     margin-right: 15px;
     
-    
+}
+
+@media (min-width: 790px ){
+    .grid_inner{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-end: 5px;
+        grid-column-end: 5px;
+    }
 }
 
 .name_inner_picture {
@@ -777,6 +810,7 @@ img.pumatop-background {
      font-size: 14px;
      font-family:"PT Sans", sans-serif;
      box-sizing: border-box;
+     margin-bottom: -80px;
  }
 
  .grid_inner {
@@ -785,3 +819,4 @@ img.pumatop-background {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 0px;
+ }
