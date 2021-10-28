@@ -1,0 +1,62 @@
+[
+    {
+       "id":1,
+       "header":"ADIDAS CLOUDFOAM TRAINERS",
+       "code":"25",
+       "reference":"catalogue-adidas.html",
+       "image":"img/adidas-trainers.jpg",
+       "alternative":"adidas-trainers",
+       "title":"Adidas Cloudfoam Trainers",
+       "price":"60.00",
+       "description":"These color block trainers provide breathability, stability, and durability due to Adidas high-tech mesh. Lightweight EVA foam cushioning makes every your step easier."
+
+    },
+    {
+       "id":2,
+       "header":"NIKE CLASSIC POLO T-SHIRT",
+       "code":"35",
+       "reference":"catalogue-reebok.html",
+       "image":"img/reebok-shorts.jpg",
+       "alternative":"reebok-shorts",
+       "title":"Reebok Workout Shorts",
+       "price":"25.00",
+       "description":"This polo T-shirt is for those who love sports casual style and wear polo shirts in everyday life. The slightly fitted silhouette will highlight your workout progress."
+
+    },
+    {
+       "id":3,
+       "header":"PUMA FITNESS SHOES IN GREY",
+       "code":"24",
+       "reference":"catalogue-puma-shoes.html",
+       "image":"img/puma-shoes.jpg",
+       "alternative":"puma-shoes",
+       "title":"Puma Fitness Shoes in Gray",
+       "price":"60.00",
+       "description":"These ultra-lightweight mesh sneakers are great for your fitness workout or regular active lifestyle. The EVA midsole is so comfortable you may want to wear these shoes long after your run has ended."
+
+    },
+    {
+       "id":4,
+       "header":"PUMA ESSENTIAL TANK TOP",
+       "code":"39",
+       "reference":"catalogue-puma-top.html",
+       "image":"img/puma-top.jpg",
+       "alternative":"puma-top",
+       "title":"Puma Essential Tank Top",
+       "price":"43.00",
+       "description":"Run in style and confidence in this Puma tank top. High-tech fabric wicks away sweat to keep you in comfort. Classic black color suits everyone."
+
+    },
+    {
+       "id":5,
+       "header":"REEBOK WORKOUT SHORTS",
+       "code":"34",
+       "reference":"catalogue-nike-tshirt.html",
+       "image":"img/nike-tshirt.jpg",
+       "alternative":"nike-tshirt",
+       "title":"Nike Classic Polo T-Shirt",
+       "price":"23.00",
+       "description":"These blue shorts are ready for your muscle-burning gym sessions. The lightweight fabric wicks sweat to keep you dry and in comfort."
+
+    }
+ ]

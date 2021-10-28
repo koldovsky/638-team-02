@@ -98,14 +98,15 @@ body {
 }
 .catalogue-reference {
     display: grid;
-    grid-template-columns: 2fr 8fr;
+    grid-template-columns: 1fr 9fr;
 }
 .catalogue-reference .cart-management {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content:space-around;
     align-items: center;
+    margin: 5px;
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 .catalogue-reference .cart-management .cart-buttons {
     display: grid;
@@ -117,6 +118,9 @@ body {
 }
 .catalogue-reference .cart-management .cart-buttons .cart-down-button {
 transform: rotate(180deg);
+}
+.catalogue-add-to-cart-button {
+    text-align: center;
 }
 .catalogue-reference a {
     text-decoration: none;
