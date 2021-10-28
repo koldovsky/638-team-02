@@ -45,6 +45,9 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.right-icons {
+    margin-left: 650px;
+}
 
 .section-menu {
     text-align: center;
@@ -57,6 +60,7 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
 
 .section-menu :hover {
     text-decoration: underline;
+    color:#df0004;
 }
 
 .burger-logo {
@@ -314,6 +318,8 @@ img.social-icons {
     width: 31px;
     text-decoration-color: none;
 }
+
+
 
 .main-collection {
     text-align: center;
