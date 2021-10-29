@@ -597,8 +597,8 @@ div .low-header-white {
 .content-countdown {
     border: 1px solid #d7baba;
     border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
+    --webkit-flex-grow: 4;
+    --webkit-box-flex: 4;
     font-size: 0;
     content: "";
     display: block;
