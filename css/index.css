@@ -277,6 +277,7 @@ font-size: 124px;
     color: #717474;
 }
 
+
 .season-sale-cards .sale-card {
     display: flex;
     flex-direction: column;
@@ -589,6 +590,7 @@ div .low-header-white {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 35px;
+    color: wheat;
 
 
 }
@@ -596,8 +598,8 @@ div .low-header-white {
 .content-countdown {
     border: 1px solid #d7baba;
     border-radius: 5px;
-    webkit-flex-grow: 4;
-    webkit-box-flex: 4;
+    --webkit-flex-grow: 4;
+    --webkit-box-flex: 4;
     font-size: 0;
     content: "";
     display: block;
@@ -609,9 +611,10 @@ div .low-header-white {
     position: relative;
     font-size: 36px;
     margin: 5px;
+   
 }
 
-.number {
+.number-day {
     color: #fff;
     font-size: 20px;
     font-family: "Bebas Neue", cursive;
@@ -620,7 +623,31 @@ div .low-header-white {
     white-space: nowrap;
 
 }
+.number-hours {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+}
 
+.number-minutes {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+}
+.number-seconds {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+}
 .caption {
     color: #fff;
     font-size: 18px;
@@ -682,6 +709,7 @@ img.pumatop-background {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 @media (min-width: 760px) {
     .block-div-month {
