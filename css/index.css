@@ -613,7 +613,7 @@ div .low-header-white {
    
 }
 
-.number {
+.number-day {
     color: #fff;
     font-size: 20px;
     font-family: "Bebas Neue", cursive;
@@ -622,7 +622,31 @@ div .low-header-white {
     white-space: nowrap;
 
 }
+.number-hours {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+}
 
+.number-minutes {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+}
+.number-seconds {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+}
 .caption {
     color: #fff;
     font-size: 18px;
