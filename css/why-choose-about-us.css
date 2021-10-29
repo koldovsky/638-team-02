@@ -3,7 +3,11 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/* @media(max-width:1122px) {
+.blocks-group-why-choose-us{
+    
+} */
+    
 .block-why-choose {
     text-align: center;
     flex-wrap: wrap;
