@@ -1,4 +1,4 @@
-(function () {
+(function() {
 
     const form = document.querySelector('.form-subscriber');
 
