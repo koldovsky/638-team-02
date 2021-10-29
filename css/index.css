@@ -589,6 +589,7 @@ div .low-header-white {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 35px;
+    color: wheat;
 
 
 }
@@ -609,6 +610,7 @@ div .low-header-white {
     position: relative;
     font-size: 36px;
     margin: 5px;
+   
 }
 
 .number {
@@ -682,6 +684,7 @@ img.pumatop-background {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 @media (min-width: 760px) {
     .block-div-month {
