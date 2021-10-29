@@ -106,4 +106,10 @@ p#contact {
         display: flex;
         flex-direction: column;
     }
+    /* .place-subs{
+        width: 100%;
+    }
+    .button-subs{
+        width: 100%;
+    } */
 }

@@ -14,7 +14,9 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.blog p{
+  padding-bottom: 0;
+}
 .content-class-inner {
   font-family: "PT Sans";
   display: flex;
