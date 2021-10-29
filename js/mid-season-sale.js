@@ -26,7 +26,7 @@
     function productInfoClick(ev) {
         const productInfoButton = ev.target;
         const productId = productInfoButton.dataset.id;
-        const product = midSeasonProducts.filter(product => product.id === productId)[0];
+        const product = midSeasonProducts.filter(midSeasonProduct => midSeasonProducts.id === productId)[0];
         localStorage.product = JSON.stringify(product);
     }
     renderProducts(midSeasonProducts);
