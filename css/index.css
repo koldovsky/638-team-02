@@ -681,6 +681,15 @@ div .low-header-white {
     padding-left: 30px;
     padding-right: 30px;
 }
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+div#carousel-adds {
+    padding: 20px 30px;
+}
 
 .card-shoes {
     font-family: PT Sans, sans-serif;
