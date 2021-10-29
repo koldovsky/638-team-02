@@ -104,6 +104,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 9fr;
 }
+@media (min-width: 760px) {
+    .catalogue-reference {
+        grid-template-columns: 2fr 8fr;
+    }
+}
 .catalogue-reference .cart-management {
     display: flex;
     justify-content:space-around;
@@ -111,6 +116,7 @@ body {
     margin: 5px;
     border: 1px solid black;
     border-radius: 5%;
+    height: 40px;
 }
 .catalogue-reference .cart-management .cart-buttons {
     display: grid;

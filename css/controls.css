@@ -15,8 +15,12 @@
     font-family: PT Sans, sans-serif;
 }
 .catalogue-add-to-cart-button {
+    display: flex;
+    justify-content: center;
     color: white;
     background-color: red;
     margin:  5px;
     font-family: PT Sans, sans-serif;
+    height: 40px;
+    align-items: center;
 }
