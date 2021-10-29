@@ -45,6 +45,9 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.right-icons {
+    margin-left: 650px;
+}
 
 .section-menu {
     text-align: center;
@@ -57,6 +60,7 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
 
 .section-menu :hover {
     text-decoration: underline;
+    color:#df0004;
 }
 
 .burger-logo {
@@ -75,8 +79,8 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
 
 .container-cards {
     padding-top: 105px;
-    padding-left: 174px;
-    padding-right: 174px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 60px;
 }
 
@@ -104,8 +108,6 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     background-position: 50%;
     cursor: pointer;
     text-align: left;
-    padding-left: 30px;
-    padding-right: 30px;
     font-weight: 700;
     text-decoration-line: none;
 
@@ -117,6 +119,12 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     background-size: cover;
     background-position: center;
     min-height: 300px;
+    margin-bottom: 30px;
+    
+}
+.text-card-one {
+    padding: 45px 45px 45px 5px;
+   
 }
 
 .three-cards-two {
@@ -125,6 +133,8 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     background-size: cover;
     background-position: center;
     min-height: 300px;
+    padding: 0 15px;
+    margin-bottom: 30px;
 
 }
 
@@ -134,8 +144,15 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     background-size: cover;
     background-position: center;
     min-height: 300px;
+    padding: 0 15px;
 
-
+}
+.text-card-ii-iii {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 37px 0px;
+    text-align: left;
 }
 
 .section-hero {
@@ -179,7 +196,16 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     margin-block-end: 0px;
     color: #222323;
 }
-
+@media (min-width:766px) {
+    .section-main-text {
+font-size: 93px;
+    }
+}
+@media (min-width:992px) {
+    .section-main-text {
+font-size: 124px;
+    }
+}
 .low-header-black {
     text-align: center;
     font-family: var(--big-font);
@@ -314,6 +340,8 @@ img.social-icons {
     width: 31px;
     text-decoration-color: none;
 }
+
+
 
 .main-collection {
     text-align: center;
@@ -703,8 +731,8 @@ img.pumatop-background {
 
     display: block;
     text-align: left;
-    font-family: Bebas Neue, cursive;
-    font-size: 62px;
+    font-family: var(--big-font);
+    font-size: 124px;
     font-weight: 400;
     margin-top: 20px;
     margin-block-start: 0px;
@@ -771,20 +799,47 @@ img.pumatop-background {
     margin-left: 15px;
     margin-right: 15px;
     
-    
+}
+
+@media (min-width: 630px ){
+    .grid_inner{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+    }
+}
+@media(min-width: 680px) {
+    .grid_inner {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 5px;
+        grid-column-gap: 30px;
+    }
+}
+
+@media(min-width:800px) {
+    .grid_inner{
+     grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.background_fon {
+    background-color: rgba(34, 35, 35, 0.89);
+    inline-size: 280.797px;
+    block-size: 115px;
+    background-origin: padding-box;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
 }
 
 .name_inner_picture {
     color: white;
     text-align: center;
-    font-size: inherit;
-    font-family: "Bebas Neue", cursive;
+    font-family: var(--big-font);
     font-size: 30px;
-    background-color: rgba(34, 35, 35, 0.89);
-    background-origin: padding-box;
-    inline-size: 280.797px;
-    block-size: 115px;
-    position: absolute;
+    position: relative;
 
  }
 
@@ -796,6 +851,8 @@ img.pumatop-background {
      font-size: 14px;
      font-family:"PT Sans", sans-serif;
      box-sizing: border-box;
+     margin-bottom: -80px;
+    
  }
 
  .grid_inner {
