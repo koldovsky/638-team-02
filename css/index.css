@@ -35,7 +35,10 @@
 nav.navbar navbar-expand-lg navbar-light bg-light {
     padding: 0;
 }
-
+ .container-fluid a:hover {
+    color: #df0004;
+    text-decoration: underline;
+}
 .navbar {
     padding: 0;
 }
@@ -45,6 +48,7 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .right-icons {
     margin-left: 650px;
 }
@@ -58,10 +62,10 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     padding: 0 15px;
 }
 
-.section-menu :hover {
+/*.section-menu :hover {
     text-decoration: underline;
     color:#df0004;
-}
+}*/
 
 .burger-logo {
     height: 40px;
