@@ -1,6 +1,6 @@
 (function() {
 
-    const form = document.querySelector('.form-subscriber');
+    const form = document.querySelector('.form-subscribe');
 
     async function handleSubmit(event) {
         event.preventDefault();

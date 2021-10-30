@@ -1,0 +1,114 @@
+#google-map {
+    height: 600px;
+    width: 100%;
+}
+
+/* .inner-map {
+    display: flex;
+    flex-basis: 0;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-stretch: 100%;
+    font-weight: 400;
+    padding: 0 32px;
+    vertical-align: baseline;
+    max-width: 1200px;
+    min-height: 560px;
+    overflow-wrap: break-word;
+}
+
+.empty-inner-map {
+    box-sizing: border-box;
+    display: block;
+    min-height: 70;
+    width: 100%;
+    font-stretch: 100%;
+}
+
+.panel-on-map {
+    align-items: center;
+    color: rgb(34, 35, 35);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    justify-content: flex-end;
+    max-width: 1200px;
+}
+
+.panel-inner {
+    align-items: stretch;
+    box-sizing: border-box;
+    color: rgb(34, 35, 35);
+    display: flex;
+    flex-basis: 0%;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.grid-map {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    justify-content: flex-end;
+    margin: -30px -15px 0;
+    vertical-align: baseline;
+}
+
+.grid-map-item {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    justify-content: flex-end;
+    margin: -30px -15px 0;
+    vertical-align: baseline;
+}
+
+.item-contact-map {
+    display: flex;
+    flex-direction: column;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    justify-content: flex-start;
+    max-width: 100%;
+    min-width: 40%;
+    padding: 40px 46px;
+    position: relative;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.item-include-map {
+    display: block;
+    background-attachment: scroll;
+    background-color: #ffffff;
+    color: rgb(34, 35, 35);
+    display: block;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    position: absolute;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+} */
