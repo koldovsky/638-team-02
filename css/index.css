@@ -94,10 +94,10 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
 }
 
 .collections-three-cards {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 20px;
+    
 
 }
 
@@ -127,9 +127,12 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     background-image: url(../img/img-man-shoes-background.svg);
     background-size: cover;
     background-position: center;
-    min-height: 300px;
+    height: 300px;
     margin-bottom: 30px;
-    
+    padding: 0 15px;
+    padding-top: 100px;
+    text-align: left;
+
 }
 .text-card-one {
     padding: 45px 45px 45px 5px;
@@ -141,9 +144,10 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     background-image: url(../img/img-skate-background.png);
     background-size: cover;
     background-position: center;
-    min-height: 300px;
+    height: 300px;
     padding: 0 15px;
     margin-bottom: 30px;
+    padding-top: 100px;
 
 }
 
@@ -152,8 +156,9 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     background-image: url(../img/img-top-background.png);
     background-size: cover;
     background-position: center;
-    min-height: 300px;
+    height: 300px;
     padding: 0 15px;
+    padding-top: 100px;
 
 }
 .text-card-ii-iii {
@@ -217,6 +222,13 @@ font-size: 124px;
 }
 .low-header-black {
     text-align: center;
+    font-family: var(--big-font);
+    font-size: 52px;
+    font-weight: 400px;
+    color: #222323;
+}
+.low-header-card-three {
+    text-align: left;
     font-family: var(--big-font);
     font-size: 52px;
     font-weight: 400px;
