@@ -23,4 +23,8 @@
     font-family: PT Sans, sans-serif;
     height: 40px;
     align-items: center;
+    transition: none;
+}
+.catalogue-add-to-cart-button p {
+    margin: 0px;
 }
