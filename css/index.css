@@ -40,7 +40,10 @@
 nav.navbar navbar-expand-lg navbar-light bg-light {
     padding: 0;
 }
-
+ .container-fluid a:hover {
+    color: #df0004;
+    text-decoration: underline;
+}
 .navbar {
     padding: 0;
 }
@@ -50,6 +53,7 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .right-icons {
     margin-left: 650px;
 }
@@ -63,10 +67,10 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     padding: 0 15px;
 }
 
-.section-menu :hover {
+/*.section-menu :hover {
     text-decoration: underline;
     color:#df0004;
-}
+}*/
 
 .burger-logo {
     height: 40px;
@@ -370,6 +374,11 @@ img.social-icons {
     text-decoration: none;
     font-size: 65%;
     font-family: PT Sans, sans-serif;
+    transition: all 500ms ease;
+    
+}
+.product-button .mc-button:hover {
+    background: rgb(255,0,0);
 }
 
 div.w-collection a {
@@ -685,6 +694,15 @@ div .low-header-white {
     text-transform: none;
     padding-left: 30px;
     padding-right: 30px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+div#carousel-adds {
+    padding: 20px 30px;
 }
 
 .card-shoes {
