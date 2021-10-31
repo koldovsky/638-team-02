@@ -43,15 +43,7 @@ body > div.a-block > div > div {
   margin-left: 10%;
   color: white;
 }
-body > main > div.a-block > div.a-background > div > div:nth-child(1) > h4 {
-    font-size: 62px;
-    font-family: "Bebas Neue", cursive;
-    text-align: left;
-    text-transform: none;
-    display: block;
-    padding-left: 30px;
-    padding-right: 30px;
-}
+
 body > main > div.a-block > div.a-background > div > div:nth-child(1) > span {
   color: rgba(255,255,255,0.62);
   font-size: 30px;
@@ -61,7 +53,6 @@ body > main > div.a-block > div.a-background > div > div:nth-child(1) > span {
     display: block;
     }
 body > main > div.a-block > div.a-background > div {
-  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 90px;
@@ -77,10 +68,14 @@ body > main > div.a-block > div.a-background > div > div.keep {
   display: block;
   color: white;
  }
+ body > main > div.a-block > div.a-background > div > div.an-banner-slogan {
+   margin-left: 0;
+ }
  body > main > div.a-block > div.a-background > div > div.an-banner > .slogan {
 color: white;
 font-size: 15px;
-margin: 12px;
+margin-top: 20px;
+margin-left: 0;
 display: flex;
 font-size: 20px;
 font-family: "PT Sans", sans-serif;
@@ -95,12 +90,28 @@ font-family: "PT Sans", sans-serif;
  body > main > div.a-block > div.a-background > div > div.an-banner-slogan {
   color: white;
   font-size: 15px;
-  margin: 12px;
+  margin-top: 12px;
   display: flex;
   font-size: 20px;
   font-family: "PT Sans", sans-serif;
  }
-@media (max-width: 992px)
-.text_1k0 * {
-    font-size: inherit;
+ body > main > div.a-block > div.a-background > div > div.learnmore {
+   border-color: white;
+   border-width: 2px;
+   width: 170px;
+   height: 60px;
+   color: white;
+ }
+ body > main > div.a-block > div.a-background > div > div.learnmore > a {
+   color: white;
+    }
+@media (min-width: 768px) {
+  body > main > div.a-block > div.a-background > div {
+    margin-left: 250px;
+}
+}
+@media (min-width: 1024px) {
+  body > main > div.a-block > div.a-background > div {
+    margin-left: 500px;
+}
 }
