@@ -11,6 +11,7 @@ body {
 }
 .container {
     margin-left: 5%;
+    margin-right: 0px;
 }
 .container-fluid {
     background-color: black;
@@ -133,6 +134,24 @@ body {
     .catalogue-reference {
         grid-template-columns: 2fr 8fr;
     }
+}
+.description-header {
+    font-family: var(--main-font);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.m-s-s-cat-divider {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    height: 2px;
+    margin-bottom: 10px;
+}
+.m-s-s-cat-divider .divider-blue {
+    background-color: blue;
+    width: 20%;
 }
 .catalogue-reference .cart-management {
     display: flex;

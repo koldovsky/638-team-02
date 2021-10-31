@@ -220,6 +220,16 @@ font-size: 93px;
 font-size: 124px;
     }
 }
+.m-s-s-divider {
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    margin-bottom: 10px;
+}
+.m-s-s-divider .silver-divider {
+    background-color: silver;
+    width: 10%;
+}
 .low-header-black {
     text-align: center;
     font-family: var(--big-font);

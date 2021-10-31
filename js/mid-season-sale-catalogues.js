@@ -23,8 +23,11 @@
                 <p>Add to cart</p>
             </a>
         </div>
+        <h5 class="description-header">Description</h5>
+        <div class="m-s-s-cat-divider">
+            <div class="divider-blue"></div>
+        </div>
         <div>
-            <h5 class="description-header">Description</h5>
             <p class="goods-description">${product.description}</p>
         </div>
     `

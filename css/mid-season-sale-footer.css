@@ -60,7 +60,27 @@ footer .footer-slogan .footer-slogan-text {
     color: white;
     font-size: 23px;
 }
-
+.m-s-s-footer-divider {
+    display: flex;
+    justify-content: center;
+    width: 800%;
+    height: 2px;
+}
+@media (min-width: 760px) {
+    .m-s-s-footer-divider {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+.m-s-s-footer-divider .divider-red {
+    width: 20%;
+    background-color: red;
+}
+@media (min-width: 760px) {
+    .m-s-s-footer-divider .divider-red {
+        width: 100%;
+    }
+}
 footer .footer-navigation {
     display: flex;
     justify-content: flex-start;
@@ -77,6 +97,11 @@ footer .footer-navigation-menu {
     text-align: center;
     text-decoration: none;
     line-height: 40px;
+}
+@media (min-width: 760px) {
+    footer .footer-navigation-menu {
+        text-align: left;
+    }
 }
 .text-navigation-menu {
     color: #fff;
