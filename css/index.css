@@ -288,6 +288,17 @@ font-size: 124px;
     color: rgb(113, 116, 116);
 }
 
+.clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    border: 0px;
+    background-color: transparent;
+    transition: margin-right, 2s;
+}
+.clock:hover {
+    margin-right: 100px;
+}
+
 .name-of-good {
     display: inline-block;
     text-align: left;
