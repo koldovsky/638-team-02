@@ -726,9 +726,12 @@ div .low-header-white {
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
+
 }
+
 div#carousel-adds {
     padding: 20px 30px;
+    
 }
 
 .card-shoes {
@@ -744,6 +747,9 @@ div#carousel-adds {
 .prise {
     font-family: PT Sans, sans-serif;
     color: #f40106;
+}
+.prise .btn-dark {
+    margin-bottom: 25px;
 }
 
 .d-block-w-100 {
