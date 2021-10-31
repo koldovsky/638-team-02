@@ -5,6 +5,10 @@
        "code":"25",
        "reference":"catalogue-adidas.html",
        "image":"img/adidas-trainers.jpg",
+       "carouselimages": [
+            "img/asics-jordan.jpg",
+            "img/nike-winter-jacket-in-blue"
+         ],
        "reserve":"img/adidas-trainers-small.jpg",
        "alternative":"adidas-trainers",
        "title":"Adidas Cloudfoam Trainers",

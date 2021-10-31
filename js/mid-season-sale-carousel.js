@@ -1,9 +1,9 @@
 (function() {
-
-    const slides = [
-        '<img src="img/adidas-trainers-big.jpg" alt="adidas-trainers">',
-        '<img src="img/nike-tshirt-big.jpg" alt="nike-tshirt">'
-    ];
+    const currentProduct = localStorage.product;
+    const slides = [];
+    for(const carouselimage of currentProduct.carouselimages) {
+        slides.push(`<img src=${carouselimage} alt=${product.title}>`);
+    }
 
     let currentSlide = 0;
     function showCurrentSlide() {

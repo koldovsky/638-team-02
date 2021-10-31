@@ -83,8 +83,12 @@ footer .footer-navigation-menu {
     text-decoration: none;
     font-family: PT Sans, sans-serif;
     font-size: 16px;
+    transition-property: color;
 }
-
+.text-navigation-menu:hover {
+    color: red;
+    text-decoration: underline;
+}
 footer .footer-shop {
     font-family: PT Sans, sans-serif;
     display: flex;
