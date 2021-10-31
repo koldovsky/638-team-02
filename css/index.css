@@ -7,7 +7,10 @@
     max-width: 100%;
     }
 } */
-
+main.container{
+    max-width: 1800px;
+    /* margin: 0; */
+}
 .line {
     display: flex;
     justify-content: center;
