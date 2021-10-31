@@ -24,9 +24,9 @@
         document.querySelectorAll('.product-info-button').forEach(infoButton => infoButton.addEventListener('click', productInfoClick));
     }
     function productInfoClick(ev) {
-        const productInfoButton = ev.target;
+        const productInfoButton = ev.target.parentNode;
         const productId = productInfoButton.dataset.id;
-        const product = midSeasonProducts.filter(midSeasonProduct => midSeasonProducts.id === productId)[0];
+        const product = midSeasonProducts.filter(midSeasonProduct => midSeasonProduct.id === productId)[0];
         localStorage.product = JSON.stringify(product);
     }
     renderProducts(midSeasonProducts);

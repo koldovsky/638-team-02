@@ -12,6 +12,31 @@ body {
 .container {
     margin-left: 5%;
 }
+.container-fluid {
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+}
+.navbar-brand img {
+    max-height: 180px;
+    max-width: 180px;
+    margin: 10px 0px 10px 0px;
+}
+.navbar-toggler {
+    background-color: white;
+}
+.navbar-nav {
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: PT Sans, sans-serif;
+    transition: ease-in-out;
+    transition-property: color;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
 .store-homepage {
     display:block;
     font-family: var(--main-font);
@@ -117,6 +142,9 @@ body {
     border: 1px solid black;
     border-radius: 5%;
     height: 40px;
+}
+.catalogue-reference .cart-management .cart-quantity {
+    margin-top: 15px;
 }
 .catalogue-reference .cart-management .cart-buttons {
     display: grid;

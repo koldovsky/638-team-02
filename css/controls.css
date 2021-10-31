@@ -13,6 +13,11 @@
     margin: 15px 5px 5px 0px;
     text-decoration: none;
     font-family: PT Sans, sans-serif;
+    transition-property: color;
+}
+.season-sale-cards .add-to-cart-button:hover {
+    background-color: red;
+    
 }
 .catalogue-add-to-cart-button {
     display: flex;
@@ -23,4 +28,12 @@
     font-family: PT Sans, sans-serif;
     height: 40px;
     align-items: center;
+    transition: color;
+}
+.catalogue-add-to-cart-button:hover {
+    background-color: black;
+    color: white;
+}
+.catalogue-add-to-cart-button p {
+    margin: 0px;
 }

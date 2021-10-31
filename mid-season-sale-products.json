@@ -1,10 +1,14 @@
 [
     {
-       "id":1,
+       "id":"1",
        "header":"ADIDAS CLOUDFOAM TRAINERS",
        "code":"25",
        "reference":"catalogue-adidas.html",
        "image":"img/adidas-trainers.jpg",
+       "carouselimages": [
+            "img/asics-jordan.jpg",
+            "img/nike-winter-jacket-in-blue"
+         ],
        "reserve":"img/adidas-trainers-small.jpg",
        "alternative":"adidas-trainers",
        "title":"Adidas Cloudfoam Trainers",
@@ -13,7 +17,7 @@
 
     },
     {
-       "id":2,
+       "id":"2",
        "header":"NIKE CLASSIC POLO T-SHIRT",
        "code":"35",
        "reference":"catalogue-reebok.html",
@@ -26,7 +30,7 @@
 
     },
     {
-       "id":3,
+       "id":"3",
        "header":"PUMA FITNESS SHOES IN GREY",
        "code":"24",
        "reference":"catalogue-puma-shoes.html",
@@ -39,7 +43,7 @@
 
     },
     {
-       "id":4,
+       "id":"4",
        "header":"PUMA ESSENTIAL TANK TOP",
        "code":"39",
        "reference":"catalogue-puma-top.html",
@@ -52,7 +56,7 @@
 
     },
     {
-       "id":5,
+       "id":"5",
        "header":"REEBOK WORKOUT SHORTS",
        "code":"34",
        "reference":"catalogue-nike-tshirt.html",
