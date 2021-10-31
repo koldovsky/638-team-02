@@ -1,12 +1,7 @@
-/* body {
-    max-width: 100%;
-     margin: auto; 
-    } */
-/* @media(min-width:1200px){
-    .container {
-    max-width: 100%;
-    }
-} */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
 
 .line {
     display: flex;
@@ -40,10 +35,7 @@
 nav.navbar navbar-expand-lg navbar-light bg-light {
     padding: 0;
 }
- .container-fluid a:hover {
-    color: #df0004;
-    text-decoration: underline;
-}
+
 .navbar {
     padding: 0;
 }
@@ -53,7 +45,6 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .right-icons {
     margin-left: 650px;
 }
@@ -67,10 +58,10 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     padding: 0 15px;
 }
 
-/*.section-menu :hover {
+.section-menu :hover {
     text-decoration: underline;
     color:#df0004;
-}*/
+}
 
 .burger-logo {
     height: 40px;
@@ -517,6 +508,9 @@ div.shoes-collection a {
     text-align: left;
     flex-direction: column;
     display: flex;
+    margin: auto;
+    
+   
 }
 
 div .low-header-white {
@@ -528,7 +522,9 @@ div .low-header-white {
     display: block;
     padding-left: 30px;
     padding-right: 30px;
+    
 }
+
 
 .text-body-bra {
     color: #fff;
@@ -852,7 +848,7 @@ img.pumatop-background {
     
 }
 
-@media(min-width: 630px){
+@media (min-width: 630px ){
     .grid_inner{
         display: grid;
         grid-template-columns: 1fr;

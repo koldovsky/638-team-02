@@ -43,10 +43,12 @@
     const startTime = new Date();
     function showCountDown() {
         const limitSecs = 29;
-        const currentTime = new Date();
-        const intervalSecs = Math.round((currentTime - startTime) / 1000);
+        const diff = new Date();
+        const intervalSecs = Math.floor(diff / 1000) % 60;
         const leftSecs = limitSecs - intervalSecs;
         countDownContainer.innerText = leftSecs;
+
+        seconds.innerHTML = s < 10 ? '0' + s : s;
 
     }
     setInterval(showCountDown, 1000);
