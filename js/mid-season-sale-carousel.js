@@ -21,7 +21,7 @@
         showCurrentSlide();
     }
 
-    setInterval(nextSlide, 5000);
+    setInterval(nextSlide, 2000);
     document.querySelector('.catalogue-content .catalogue-images .carousel .prev').addEventListener('click', prevSlide);
     document.querySelector('.catalogue-content .catalogue-images .carousel .next').addEventListener('click', nextSlide);
     showCurrentSlide();

@@ -5,6 +5,11 @@
     margin:  5px;
     text-decoration: none;
     font-family: PT Sans, sans-serif;
+    transition: color;
+}
+.shop-now-button:hover {
+    background-color: black;
+    color: white;
 }
 .season-sale-cards .add-to-cart-button {
     color: white;
