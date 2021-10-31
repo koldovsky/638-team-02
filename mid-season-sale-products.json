@@ -6,8 +6,9 @@
        "reference":"catalogue-adidas.html",
        "image":"img/adidas-trainers.jpg",
        "carouselimages": [
-            "img/asics-jordan.jpg",
-            "img/nike-winter-jacket-in-blue"
+            "img/adidas-trainers-big.jpg",
+            "img/adidas-trainers-big-1.jpg",
+            "img/adidas-trainers-big-2.jpg"
          ],
        "reserve":"img/adidas-trainers-small.jpg",
        "alternative":"adidas-trainers",
@@ -20,11 +21,16 @@
        "id":"2",
        "header":"NIKE CLASSIC POLO T-SHIRT",
        "code":"35",
-       "reference":"catalogue-reebok.html",
-       "image":"img/reebok-shorts.jpg",
-       "reserve":"img/reebok-shorts-small.jpg",
-       "alternative":"reebok-shorts",
-       "title":"Reebok Workout Shorts",
+       "reference":"catalogue-nike-tshirt.html",
+       "image":"img/nike-tshirt.jpg",
+       "carouselimages": [
+         "img/nike-tshirt-big.jpg",
+         "img/nike-tshirt-big-1.jpg",
+         "img/nike-tshirt-big-2.jpg"
+      ],
+       "reserve":"img/nike-tshirt-small.jpg",
+       "alternative":"nike-tshirt",
+       "title":"Nike Classic Polo T-Shirt",
        "price":"25.00",
        "description":"This polo T-shirt is for those who love sports casual style and wear polo shirts in everyday life. The slightly fitted silhouette will highlight your workout progress."
 
@@ -35,6 +41,11 @@
        "code":"24",
        "reference":"catalogue-puma-shoes.html",
        "image":"img/puma-shoes.jpg",
+       "carouselimages": [
+         "img/puma-shoes-big.jpg",
+         "img/puma-shoes-big-1.jpg",
+         "img/puma-shoes-big-2.jpg"
+      ],
        "reserve":"img/puma-shoes-small.jpg",
        "alternative":"puma-shoes",
        "title":"Puma Fitness Shoes in Gray",
@@ -48,6 +59,11 @@
        "code":"39",
        "reference":"catalogue-puma-top.html",
        "image":"img/puma-top.jpg",
+       "carouselimages": [
+         "img/puma-top-big.jpg",
+         "img/puma-top-big-1.jpg",
+         "img/puma-top-big-2.jpg"
+      ],
        "reserve":"img/puma-top-small.jpg",
        "alternative":"puma-top",
        "title":"Puma Essential Tank Top",
@@ -59,11 +75,16 @@
        "id":"5",
        "header":"REEBOK WORKOUT SHORTS",
        "code":"34",
-       "reference":"catalogue-nike-tshirt.html",
-       "image":"img/nike-tshirt.jpg",
-       "reserve":"img/nike-tshirt-small.jpg",
-       "alternative":"nike-tshirt",
-       "title":"Nike Classic Polo T-Shirt",
+       "reference":"catalogue-reebok.html",
+       "image":"img/reebok-shorts.jpg",
+       "carouselimages": [
+         "img/reebok-shorts-big.jpg",
+         "img/reebok-shorts-big-1.jpg",
+         "img/reebok-shorts-big-2.jpg"
+      ],
+       "reserve":"img/reebok-shorts-small.jpg",
+       "alternative":"reebok-shorts",
+       "title":"Reebok Workout Shorts",
        "price":"23.00",
        "description":"These blue shorts are ready for your muscle-burning gym sessions. The lightweight fabric wicks sweat to keep you dry and in comfort."
 

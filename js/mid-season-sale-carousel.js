@@ -1,8 +1,8 @@
 (function() {
-    const currentProduct = localStorage.product;
+    const currentProduct = JSON.parse(localStorage.product);
     const slides = [];
     for(const carouselimage of currentProduct.carouselimages) {
-        slides.push(`<img src=${carouselimage} alt=${product.title}>`);
+        slides.push(`<img src=${carouselimage} alt=${currentProduct.title}>`);
     }
 
     let currentSlide = 0;
