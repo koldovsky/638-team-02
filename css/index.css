@@ -288,6 +288,17 @@ font-size: 124px;
     color: rgb(113, 116, 116);
 }
 
+.clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    border: 0px;
+    background-color: transparent;
+    transition: margin-right, 2s;
+}
+.clock:hover {
+    margin-right: 100px;
+}
+
 .name-of-good {
     display: inline-block;
     text-align: left;
@@ -726,9 +737,12 @@ div .low-header-white {
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
+    padding: 50px;
 }
+
 div#carousel-adds {
     padding: 20px 30px;
+    
 }
 
 .card-shoes {
@@ -744,6 +758,9 @@ div#carousel-adds {
 .prise {
     font-family: PT Sans, sans-serif;
     color: #f40106;
+}
+.prise .btn-dark {
+    margin-bottom: 25px;
 }
 
 .d-block-w-100 {
