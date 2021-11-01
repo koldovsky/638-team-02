@@ -293,10 +293,15 @@ font-size: 124px;
     font-weight: 700;
     border: 0px;
     background-color: transparent;
-    transition: margin-right, 2s;
+    transition-property: all;
+    transition-duration: 2s;
 }
 .clock:hover {
-    margin-right: 100px;
+    margin-left: 10px;
+    background-color: blueviolet;
+    font-size: 2rem;
+    transform: rotate(90deg);
+    opacity: 80%;
 }
 
 .name-of-good {
@@ -817,6 +822,8 @@ img.pumatop-background {
     background-size: cover;
     min-height: 560px;
     background-position: center;
+
+    
                 
 }
 
@@ -831,23 +838,43 @@ img.pumatop-background {
 .section_words {
 
     display: block;
+    flex-basis: 100%;
+    max-width: 100%;
     text-align: left;
     font-family: var(--big-font);
-    font-size: 124px;
+    font-size: 62px;
     font-weight: 400;
     margin-top: 20px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
     color: #fff;
+    
 }
+
+@media (min-width:766px) {
+    .section_words {
+font-size: 93px;
+    }
+}
+@media (min-width:992px) {
+    .section_words  {
+font-size: 124px;
+    }
+}*
+
 
 .shop-now {
     color: black;
     background-color: white;
     padding: 5px;
-    margin: 5px;
+    margin:  5px;
     text-decoration: none;
     font-family: PT Sans, sans-serif;
+    transition: color;
+    
+}
+
+.shop-now:hover {
+    background-color: black;
+    color: white;
 }
 
 .card-t-shits {
@@ -866,6 +893,7 @@ img.pumatop-background {
     margin-left: 15px;
     margin-right: 15px;
 }
+
 .card-jackets {
     background-image:url(../img/off-all-jackets.jpeg);
     background-size: cover;
@@ -963,3 +991,63 @@ img.pumatop-background {
     padding-right: 15px;
     padding-bottom: 0px;
  }
+
+ 
+
+ .timer__items {
+    display: flex;
+    font-size: 48px;
+    
+  }
+
+  .timer__item {
+    position: relative;
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    
+  }
+  .timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 14px;
+
+    
+  }
+
+  .timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
+    
+  }
+  .timer {
+      color: rgba(119, 38, 38, 0.842);
+      text-align: center;
+      font-family: var(--big-font);
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+
+      
+  }
+
+
+.endiscount {
+    padding: 25px;
+    text-decoration: none;
+    color: rgba(29, 27, 27, 0.726);
+    margin: none;
+    text-align: center;
+    font-family: var(--big-font); 
+    font-size: 40px;
+    display: block;
+    flex-wrap: wrap;
+
+
+}

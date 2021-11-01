@@ -42,50 +42,57 @@ body > div.a-block > div > div {
   color: white;
 }
 
-body > main > div.a-block > div.a-background > div > div:nth-child(1) > span {
-  color: rgba(255,255,255,0.62);
+body>main>div.a-block>div.a-background>div>div:nth-child(1)>span {
+  color: rgba(255, 255, 255, 0.62);
   font-size: 30px;
-    font-family: "Bebas Neue", cursive;
-    text-align: left;
-    text-transform: none;
-    display: block;
-    }
-body > main > div.a-block > div.a-background > div {
+  font-family: "Bebas Neue", cursive;
+  text-align: left;
+  text-transform: none;
+  display: block;
+}
+
+body>main>div.a-block>div.a-background>div {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 90px;
-    padding-right: 24px;
-    padding-bottom: 90px;
-    padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 90px;
+  padding-left: 24px;
 }
-body > main > div.a-block > div.a-background > div > div.keep {
+
+body>main>div.a-block>div.a-background>div>div.keep {
   font-size: 62px;
   font-family: "Bebas Neue", cursive;
   text-align: left;
   text-transform: none;
   display: block;
   color: white;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner-slogan {
-   margin-left: 0;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner > .slogan {
-color: white;
-font-size: 15px;
-margin-top: 20px;
-margin-left: 0;
-display: flex;
-font-size: 20px;
-font-family: "PT Sans", sans-serif;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner > div > div > img {
-   height: 24px;
-   width: 24px;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner > div > div {
-   margin-right: 30px;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner-slogan {
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner-slogan {
+  margin-left: 0;
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner>.slogan {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 0;
+  display: flex;
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner>div>div>img {
+  height: 24px;
+  width: 24px;
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner>div>div {
+  margin-right: 30px;
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner-slogan {
   color: white;
   font-size: 15px;
   margin-top: 12px;
@@ -115,12 +122,13 @@ font-family: "PT Sans", sans-serif;
     }
     
 @media (min-width: 768px) {
-  body > main > div.a-block > div.a-background > div {
+  body>main>div.a-block>div.a-background>div {
     margin-left: 250px;
+  }
 }
-}
+
 @media (min-width: 1024px) {
-  body > main > div.a-block > div.a-background > div {
+  body>main>div.a-block>div.a-background>div {
     margin-left: 500px;
 }
 }
