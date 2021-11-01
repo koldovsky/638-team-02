@@ -822,6 +822,7 @@ img.pumatop-background {
     background-size: cover;
     min-height: 560px;
     background-position: center;
+
     
                 
 }
@@ -837,17 +838,28 @@ img.pumatop-background {
 .section_words {
 
     display: block;
-    flex-wrap: wrap;
+    flex-basis: 100%;
+    max-width: 100%;
     text-align: left;
     font-family: var(--big-font);
-    font-size: 124px;
+    font-size: 62px;
     font-weight: 400;
     margin-top: 20px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
     color: #fff;
     
 }
+
+@media (min-width:766px) {
+    .section_words {
+font-size: 93px;
+    }
+}
+@media (min-width:992px) {
+    .section_words  {
+font-size: 124px;
+    }
+}*
+
 
 .shop-now {
     color: black;
@@ -979,6 +991,9 @@ img.pumatop-background {
     padding-right: 15px;
     padding-bottom: 0px;
  }
+
+ 
+
  .timer__items {
     display: flex;
     font-size: 48px;
@@ -1017,6 +1032,7 @@ img.pumatop-background {
       font-family: var(--big-font);
       flex-wrap: wrap;
       display: flex;
+      justify-content: center;
 
       
   }
@@ -1025,7 +1041,7 @@ img.pumatop-background {
 .endiscount {
     padding: 25px;
     text-decoration: none;
-    color: rgba(136, 19, 19, 0.726);
+    color: rgba(29, 27, 27, 0.726);
     margin: none;
     text-align: center;
     font-family: var(--big-font); 
