@@ -972,6 +972,13 @@ font-size: 124px;
 
  }
 
+
+ .button_shop:hover {
+    background-color: #7c242577;
+    color: white;
+ 
+}
+
  .button_shop {
      color: #fff;;
      font-weight: bold;
@@ -984,6 +991,8 @@ font-size: 124px;
     
  }
 
+
+ 
  .grid_inner {
     background-color:rgba(0,0,0,0);
     padding-top: 50px;
