@@ -850,9 +850,15 @@ img.pumatop-background {
     color: black;
     background-color: white;
     padding: 5px;
-    margin: 5px;
+    margin:  5px;
     text-decoration: none;
     font-family: PT Sans, sans-serif;
+    transition: color;
+}
+
+.shop-now:hover {
+    background-color: black;
+    color: white;
 }
 
 .card-t-shits {
@@ -871,6 +877,7 @@ img.pumatop-background {
     margin-left: 15px;
     margin-right: 15px;
 }
+
 .card-jackets {
     background-image:url(../img/off-all-jackets.jpeg);
     background-size: cover;
