@@ -822,6 +822,7 @@ img.pumatop-background {
     background-size: cover;
     min-height: 560px;
     background-position: center;
+    
                 
 }
 
@@ -856,6 +857,7 @@ img.pumatop-background {
     text-decoration: none;
     font-family: PT Sans, sans-serif;
     transition: color;
+    
 }
 
 .shop-now:hover {
@@ -982,6 +984,7 @@ img.pumatop-background {
     font-size: 48px;
     
   }
+
   .timer__item {
     position: relative;
     min-width: 60px;
@@ -998,8 +1001,10 @@ img.pumatop-background {
     bottom: 0;
     transform: translateX(-50%);
     font-size: 14px;
+
     
   }
+
   .timer__item:not(:last-child)::after {
     content: ':';
     position: absolute;
@@ -1007,9 +1012,11 @@ img.pumatop-background {
     
   }
   .timer {
-      color: rgba(240, 60, 60, 0.842);
-      position: center;
+      color: rgba(119, 38, 38, 0.842);
       text-align: center;
+      font-family: var(--big-font);
+      flex-wrap: wrap;
+      display: flex;
 
       
   }
@@ -1018,10 +1025,13 @@ img.pumatop-background {
 .endiscount {
     padding: 25px;
     text-decoration: none;
-    color: rgba(71, 69, 69, 0.753);
+    color: rgba(136, 19, 19, 0.726);
     margin: none;
     text-align: center;
-    font-family: PT Sans, sans-serif;
-    font-size: 20px;
-    
+    font-family: var(--big-font); 
+    font-size: 40px;
+    display: block;
+    flex-wrap: wrap;
+
+
 }
