@@ -22,18 +22,16 @@
 }
 
 .a-background {
-    background-image: url(https://res2.weblium.site/res/60080b98d4893c0021b21b64/6010362c704e5a002223b6eb_optimized_1920.webp);
-    background-repeat: no-repeat;
-    min-height: 748px;
-    display: block;
-    background-size: cover;
-    background-position: center;
-    
-px
-;
+  background-image: url(https://res2.weblium.site/res/60080b98d4893c0021b21b64/6010362c704e5a002223b6eb_optimized_1920.webp);
+  background-repeat: no-repeat;
+  min-height: 748px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+
 }
 
-body > div.a-block > div > div {
+body>div.a-block>div>div {
   display: block;
   text-align: left;
   font-weight: 400;
@@ -44,74 +42,116 @@ body > div.a-block > div > div {
   color: white;
 }
 
-body > main > div.a-block > div.a-background > div > div:nth-child(1) > span {
-  color: rgba(255,255,255,0.62);
+body>main>div.a-block>div.a-background>div>div:nth-child(1)>span {
+  color: rgba(255, 255, 255, 0.62);
   font-size: 30px;
-    font-family: "Bebas Neue", cursive;
-    text-align: left;
-    text-transform: none;
-    display: block;
-    }
-body > main > div.a-block > div.a-background > div {
+  font-family: "Bebas Neue", cursive;
+  text-align: left;
+  text-transform: none;
+  display: block;
+}
+
+body>main>div.a-block>div.a-background>div {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 90px;
-    padding-right: 24px;
-    padding-bottom: 90px;
-    padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 90px;
+  padding-left: 24px;
 }
-body > main > div.a-block > div.a-background > div > div.keep {
+
+body>main>div.a-block>div.a-background>div>div.keep {
   font-size: 62px;
   font-family: "Bebas Neue", cursive;
   text-align: left;
   text-transform: none;
   display: block;
   color: white;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner-slogan {
-   margin-left: 0;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner > .slogan {
-color: white;
-font-size: 15px;
-margin-top: 20px;
-margin-left: 0;
-display: flex;
-font-size: 20px;
-font-family: "PT Sans", sans-serif;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner > div > div > img {
-   height: 24px;
-   width: 24px;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner > div > div {
-   margin-right: 30px;
- }
- body > main > div.a-block > div.a-background > div > div.an-banner-slogan {
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner-slogan {
+  margin-left: 0;
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner>.slogan {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 0;
+  display: flex;
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner>div>div>img {
+  height: 24px;
+  width: 24px;
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner>div>div {
+  margin-right: 30px;
+}
+
+body>main>div.a-block>div.a-background>div>div.an-banner-slogan {
   color: white;
   font-size: 15px;
   margin-top: 12px;
   display: flex;
   font-size: 20px;
   font-family: "PT Sans", sans-serif;
- }
- body > main > div.a-block > div.a-background > div > div.learnmore {
-   border-color: white;
-   border-width: 2px;
-   width: 170px;
-   height: 60px;
-   color: white;
- }
- body > main > div.a-block > div.a-background > div > div.learnmore > a {
-   color: white;
-    }
+}
+
+body>main>div.a-block>div.a-background>div>div.learnmore {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 35px;
+  text-align: left;
+}
+
+.inner-lernmore a{
+  text-decoration: none;
+}
+
+span.style-btn-lernmore {
+  display: block;
+  margin: 15px 15px 15px 0;
+  padding: 18px 30px;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  width: 170px;
+  height: 60px;
+  font-weight: 500;
+}
+
+span.btn-inner {
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+span.btn-content {
+  color: #ffffff;
+  display: block;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16.5px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
-  body > main > div.a-block > div.a-background > div {
+  body>main>div.a-block>div.a-background>div {
     margin-left: 250px;
+  }
 }
-}
+
 @media (min-width: 1024px) {
-  body > main > div.a-block > div.a-background > div {
+  body>main>div.a-block>div.a-background>div {
     margin-left: 500px;
-}
+  }
 }
